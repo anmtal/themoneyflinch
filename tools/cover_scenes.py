@@ -91,7 +91,9 @@ def list_screen(cfg):
     title = cfg.get("appTitle", "Inbox")
     d.text((70, 150), title, font=F("segoeuib.ttf", 64), fill=TXT)
     badge = cfg.get("badge")
-    if badge:
+    # only draw the round unread-style badge for short numeric-ish values (e.g. "47");
+    # longer strings would collide with the title, so skip them.
+    if badge and len(str(badge)) <= 3:
         tw = d.textlength(title, font=F("segoeuib.ttf", 64))
         bx = 70 + tw + 34
         r = 40
@@ -162,7 +164,9 @@ def checkout(cfg):
     d.rounded_rectangle([70, 300, W - 70, 440], radius=24, fill=CARD2)
     d.rounded_rectangle([100, 330, 210, 410], radius=14, fill=CARD)
     d.text((240, 348), cfg.get("item", "1 item in cart"), font=F("segoeuib.ttf", 40), fill=TXT, anchor="lm")
-    d.text((240, 400), "Ready to buy", font=F("segoeui.ttf", 32), fill=TXT_DIM, anchor="lm")
+    status = cfg.get("status")
+    d.text((240, 400), status or "Ready to buy", font=F("segoeui.ttf", 32),
+           fill=BADGE if status else TXT_DIM, anchor="lm")
     d.text((W - 100, 370), cfg.get("price", "$48.00"), font=F("segoeuib.ttf", 46), fill=TXT, anchor="rm")
     # saved card row
     d.text((90, 500), "Pay with", font=F("segoeui.ttf", 34), fill=TXT_DIM)

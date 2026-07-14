@@ -627,5 +627,1479 @@
       "repLine": "Drop the number. No judgment. That's your rep."
     },
     "day": 12
+  },
+  {
+    "slug": "emergency-card-main-card",
+    "coverScene": "list",
+    "coverConfig": {
+      "appTitle": "Emergency Card",
+      "rows": [
+        {
+          "left": "Groceries",
+          "right": "$61.20",
+          "muted": "Today"
+        },
+        {
+          "left": "Gas",
+          "right": "$44.00",
+          "muted": "Yesterday"
+        },
+        {
+          "left": "Coffee",
+          "right": "$5.75",
+          "muted": "Yesterday"
+        },
+        {
+          "left": "Takeout",
+          "right": "$28.40",
+          "muted": "Sun"
+        },
+        {
+          "left": "Pharmacy",
+          "right": "$16.90",
+          "muted": "Sat"
+        }
+      ],
+      "badge": "Since March",
+      "tabLabel": "Emergencies"
+    },
+    "coverOverlay": {
+      "series": "FLINCH FILE No. 5",
+      "hook": "You gave one card a fake job",
+      "subhook": "The 'emergency' card you actually live on"
+    },
+    "bodySlides": [
+      {
+        "type": "statement",
+        "headline": "You keep one card for emergencies.",
+        "sub": "Then you buy lunch on it. And gas. And groceries. Since March."
+      },
+      {
+        "type": "statement",
+        "headline": "You called it 'emergency' so it would not count.",
+        "sub": "A card with a job feels separate. Separate money is easy to not look at."
+      },
+      {
+        "type": "card",
+        "headline": "Here is the trick your brain runs.",
+        "term": "Mental accounting",
+        "definition": "You sort one pile of money into jars. The 'emergency' jar feels off-limits, so using it does not feel like spending. The card fills up. Now there is no card left for a real emergency."
+      },
+      {
+        "type": "statement",
+        "headline": "Call it what it is.",
+        "sub": "It is your main card now, not the backup. Look at the balance today. Then start a small cushion somewhere you cannot reach it by mistake."
+      },
+      {
+        "type": "statement",
+        "headline": "You never had a math problem.",
+        "sub": "You had a card you were not ready to open. Looking is the whole fix."
+      }
+    ],
+    "endSlide": {
+      "question": "When did 'emergency' quietly turn into 'everyday'?",
+      "repLine": "The Money Flinch — we name the flinch, not you."
+    },
+    "caption": "A card with a nickname still charges interest. Save this for the next time your thumb hovers over the 'emergency' card. #moneyanxiety #financialtherapy #moneypsychology #moneymindset #personalfinance",
+    "firstComment": "Drop the month yours quietly became your main card. Mine says March. No judgment.",
+    "day": 13
+  },
+  {
+    "slug": "declined-as-balance-alert",
+    "coverScene": "checkout",
+    "coverConfig": {
+      "item": "Groceries",
+      "price": "$62.40",
+      "cardLast4": "4471",
+      "time": "5:47 PM",
+      "status": "Card declined"
+    },
+    "coverOverlay": {
+      "series": "FLINCH FILE No. 6",
+      "hook": "You let the card break the news.",
+      "subhook": "The register tells you what you won't check."
+    },
+    "bodySlides": [
+      {
+        "type": "statement",
+        "headline": "You let the card reader be your bank app.",
+        "sub": "You tap, you wait, you find out in front of a line of people."
+      },
+      {
+        "type": "statement",
+        "headline": "Not knowing feels safer than knowing.",
+        "sub": "If you don't look, the number can't be real yet. So you don't look."
+      },
+      {
+        "type": "card",
+        "term": "The Ostrich Effect",
+        "definition": "It's a real money habit. You skip the balance to dodge the sting. But the money stays gone whether you look or not."
+      },
+      {
+        "type": "statement",
+        "headline": "Look before you tap. Once.",
+        "sub": "Open the app. Read the real number. Do it before you shop, not at the register."
+      },
+      {
+        "type": "statement",
+        "headline": "A decline is late news. Your app is early news.",
+        "sub": "Same number, sooner. You never had a math problem. You had a looking problem."
+      }
+    ],
+    "endSlide": {
+      "question": "How many times has a decline told you what you already knew?",
+      "repLine": "The Money Flinch — you never had a math problem."
+    },
+    "caption": "You never had a math problem. You had a looking problem. Save this for the next time your thumb hovers over tap to pay. #moneyanxiety #financialtherapy #moneypsychology #moneymindset #personalfinance",
+    "firstComment": "Drop the number of times a card got declined this year when you already knew why. No judgment.",
+    "day": 14
+  },
+  {
+    "slug": "minimum-due-called-handled",
+    "coverScene": "notification",
+    "coverConfig": {
+      "time": "9:41",
+      "cards": [
+        {
+          "app": "CARD",
+          "title": "Payment received",
+          "body": "Minimum due of $35 posted. Thanks."
+        },
+        {
+          "app": "CARD",
+          "title": "Statement balance",
+          "body": "$1,842 carried to next month"
+        }
+      ]
+    },
+    "coverOverlay": {
+      "series": "FLINCH FILE No. 7",
+      "hook": "You paid the least and felt done",
+      "subhook": "The card said thanks. The balance stayed."
+    },
+    "bodySlides": [
+      {
+        "type": "statement",
+        "headline": "You pay the minimum and close the app.",
+        "sub": "The task is done in your head. The money is not."
+      },
+      {
+        "type": "statement",
+        "headline": "You are buying a quiet inbox, not a smaller balance.",
+        "sub": "The red \"past due\" goes away. That feels like the goal. It is not."
+      },
+      {
+        "type": "card",
+        "term": "Trailing interest",
+        "definition": "When you carry a balance, interest keeps adding every day on what is left. The minimum barely covers it, so the balance moves down slow or holds still.",
+        "headline": "Why \"handled\" and \"paid\" are not the same word.",
+        "sub": ""
+      },
+      {
+        "type": "statement",
+        "headline": "Pay one dollar more than the minimum this month.",
+        "sub": "Then look at what you actually owe, out loud, one time. Seeing it is the hard part. You already did it."
+      },
+      {
+        "type": "statement",
+        "headline": "You never had a math problem.",
+        "sub": "You had a flinch. The minimum let you look away and still feel responsible."
+      }
+    ],
+    "endSlide": {
+      "question": "When did the minimum start feeling like enough?",
+      "repLine": "Follow The Money Flinch for the behavior, not the budget."
+    },
+    "caption": "You never had a math problem. Save this for the next time the minimum feels like a finish line. #moneyanxiety #financialtherapy #moneypsychology #moneymindset #personalfinance",
+    "firstComment": "How many months in a row have you paid only the minimum and told yourself it was fine? Drop the number. No judgment.",
+    "day": 15
+  },
+  {
+    "slug": "screenshot-the-bill",
+    "coverScene": "notification",
+    "coverConfig": {
+      "time": "9:41",
+      "cards": [
+        {
+          "app": "Photos",
+          "title": "Screenshot saved",
+          "body": "1 new screenshot in Recents"
+        },
+        {
+          "app": "Mail",
+          "title": "Your bill is ready",
+          "body": "Amount due in 6 days. Tap to view."
+        }
+      ]
+    },
+    "coverOverlay": {
+      "series": "FLINCH FILE No. 8",
+      "hook": "You screenshot the bill to feel done",
+      "subhook": "Then the screenshot never gets opened again"
+    },
+    "bodySlides": [
+      {
+        "type": "statement",
+        "headline": "The bill shows up. You take a screenshot of it.",
+        "sub": "For a second, it feels handled. It is not."
+      },
+      {
+        "type": "statement",
+        "headline": "You did the easy half and stopped.",
+        "sub": "Capturing the bill felt like action. Paying it is the part you skipped."
+      },
+      {
+        "type": "card",
+        "term": "Task-capture relief",
+        "definition": "Your brain treats saving the bill as finishing the bill. The screenshot buys calm, so the urge to pay drops.",
+        "headline": "Why the screenshot works against you",
+        "sub": "You traded the fix for a feeling."
+      },
+      {
+        "type": "statement",
+        "headline": "Open the screenshot right now and read one number.",
+        "sub": "The amount, or the due date. Looking at it is the two-minute part."
+      },
+      {
+        "type": "statement",
+        "headline": "You were not lazy. You were scared of the number.",
+        "sub": "The screenshot was a place to hide it. Now you know where it lives."
+      }
+    ],
+    "endSlide": {
+      "question": "What bill is living in your screenshots right now?",
+      "repLine": "Save this for the next one you flinch on."
+    },
+    "caption": "You never had a math problem. You had a bill you were scared to look at. Save this so the next screenshot gets opened, not buried. #moneyanxiety #financialtherapy #moneypsychology #moneymindset #personalfinance",
+    "firstComment": "How many un-opened bill screenshots are in your camera roll right now? Drop the number. No judgment.",
+    "day": 16
+  },
+  {
+    "slug": "self-checkout-no-witness",
+    "coverScene": "checkout",
+    "coverConfig": {
+      "item": "Groceries (14 items)",
+      "price": "$118.47",
+      "cardLast4": "4092",
+      "time": "6:52 PM"
+    },
+    "coverOverlay": {
+      "series": "FLINCH FILE No. 9",
+      "hook": "You pick the lane with no witness",
+      "subhook": "The total climbs where only you can see it"
+    },
+    "bodySlides": [
+      {
+        "type": "statement",
+        "headline": "You steer toward the self-checkout on purpose.",
+        "sub": "Not for speed. So no one reads the number that grows next to your name."
+      },
+      {
+        "type": "statement",
+        "headline": "A watched total feels like a graded test.",
+        "sub": "You imagine the cashier doing quiet math about you. So you remove the audience."
+      },
+      {
+        "type": "card",
+        "term": "Audience effect",
+        "definition": "You act more careful when you feel watched. Remove the watcher and the pressure drops, but so does the pause that made you think.",
+        "headline": "This one has a name."
+      },
+      {
+        "type": "statement",
+        "headline": "Keep the pause. Drop the shame.",
+        "sub": "Read your own total out loud before you tap. You become the witness, minus the judging face."
+      },
+      {
+        "type": "statement",
+        "headline": "The number was never the enemy.",
+        "sub": "Hiding it only made it a surprise later. Seen on purpose, it turns back into a plain fact."
+      }
+    ],
+    "endSlide": {
+      "question": "What total do you refuse to watch climb?",
+      "repLine": "You never had a math problem."
+    },
+    "caption": "You never had a math problem. Save this for the next time you drift toward the lane with no witness. #moneyanxiety #financialtherapy #moneypsychology #moneymindset #personalfinance",
+    "firstComment": "Be honest: how many times a week do you pick self-checkout so no one sees the total? Drop the number. No judgment.",
+    "day": 17
+  },
+  {
+    "slug": "friend-covers-figure-it-out-later",
+    "coverScene": "notification",
+    "coverConfig": {
+      "time": "11:47 PM",
+      "cards": [
+        {
+          "app": "Messages",
+          "title": "Dana",
+          "body": "don't worry about it, get me later"
+        }
+      ]
+    },
+    "coverOverlay": {
+      "series": "FLINCH FILE No. 10",
+      "hook": "The tab you both agree to forget",
+      "subhook": "Later has no date on it."
+    },
+    "bodySlides": [
+      {
+        "type": "statement",
+        "headline": "The check lands and your friend grabs it first.",
+        "sub": "You say you will figure it out later. You both let it float."
+      },
+      {
+        "type": "statement",
+        "headline": "Saying the number out loud feels like starting a fight.",
+        "sub": "So you go quiet. Quiet feels kinder than being exact."
+      },
+      {
+        "type": "card",
+        "term": "The Fade",
+        "definition": "Later has no date. The amount blurs, then slips away, and quiet tension moves into the gap it leaves."
+      },
+      {
+        "type": "statement",
+        "headline": "Settle it before you stand up from the table.",
+        "sub": "Open your payment app now. Send the exact amount while you both still remember it."
+      },
+      {
+        "type": "statement",
+        "headline": "Paying fast is not cold. It protects the friend, not the favor.",
+        "sub": "You never had a math problem. You had a moment you were scared to name."
+      }
+    ],
+    "endSlide": {
+      "question": "How many open 'laters' are you carrying right now?",
+      "repLine": "The Money Flinch — you never had a math problem."
+    },
+    "caption": "You never had a math problem. Save this for the next time a friend waves the check away and you both say \"later.\" #moneyanxiety #financialtherapy #moneypsychology #moneymindset #personalfinance",
+    "firstComment": "How many \"figure it out laters\" are floating around your life right now? Drop the number. No judgment.",
+    "day": 18
+  },
+  {
+    "slug": "buy-right-after-deposit",
+    "coverScene": "notification",
+    "coverConfig": {
+      "time": "9:41",
+      "cards": [
+        {
+          "app": "Bank",
+          "title": "Direct deposit",
+          "body": "$2,140.00 landed in Checking"
+        },
+        {
+          "app": "Cart",
+          "title": "Still waiting for you",
+          "body": "The one you keep opening. Check out now?"
+        }
+      ]
+    },
+    "coverOverlay": {
+      "series": "FLINCH FILE No. 11",
+      "hook": "You wait for payday to buy it",
+      "subhook": "So the money feels like it isn't yours"
+    },
+    "bodySlides": [
+      {
+        "type": "statement",
+        "headline": "You hold the cart open until the deposit lands.",
+        "sub": "Then you buy in the same hour. It feels weightless."
+      },
+      {
+        "type": "statement",
+        "headline": "The timing does the lying for you.",
+        "sub": "A full account makes any single purchase look small."
+      },
+      {
+        "type": "card",
+        "term": "Mental accounting",
+        "definition": "Your brain files fresh deposit money as spare, not owed. New cash reads as bonus, so spending it barely registers.",
+        "headline": "This has a name."
+      },
+      {
+        "type": "statement",
+        "headline": "Move the money before you shop, not after.",
+        "sub": "Send rent, bills, and savings out first. Buy from what stays."
+      },
+      {
+        "type": "statement",
+        "headline": "A big balance is not the same as free.",
+        "sub": "That money already has jobs. You are meeting it before its shift starts."
+      }
+    ],
+    "endSlide": {
+      "question": "What do you buy in the hour after payday?",
+      "repLine": "You never had a math problem. You had a timing trick."
+    },
+    "caption": "You never had a math problem. You had a timing trick. Save this for the next time your cart is waiting on payday. #moneyanxiety #financialtherapy #moneypsychology #moneymindset #personalfinance",
+    "firstComment": "How many hours after your deposit lands before you spend? Drop the number. Mine used to be under one. No judgment.",
+    "day": 19
+  },
+  {
+    "slug": "amount-due-not-the-why",
+    "coverScene": "notification",
+    "coverConfig": {
+      "time": "8:42 AM",
+      "cards": [
+        {
+          "app": "Wallet",
+          "title": "Statement ready",
+          "body": "Amount due: $214.60"
+        },
+        {
+          "app": "Wallet",
+          "title": "Statement ready",
+          "body": "Interest charged this cycle: $31.08 · Why your balance grew"
+        }
+      ]
+    },
+    "coverOverlay": {
+      "series": "FLINCH FILE No. 12",
+      "hook": "You read the number. Not the reason.",
+      "subhook": "The 'why' line is the one you skip"
+    },
+    "bodySlides": [
+      {
+        "type": "statement",
+        "headline": "Your eye lands on 'amount due' and stops there.",
+        "sub": "The line below it — the one that says why — you scroll right past."
+      },
+      {
+        "type": "statement",
+        "headline": "You skip the why because the why might ask something of you.",
+        "sub": "The number you can pay. The reason you would have to change."
+      },
+      {
+        "type": "card",
+        "term": "Selective attention",
+        "definition": "Your brain reads the part that ends the task and hides the part that starts a harder one. The 'why' feels like the harder one.",
+        "headline": "There's a name for this.",
+        "sub": ""
+      },
+      {
+        "type": "statement",
+        "headline": "Next statement, read one line down.",
+        "sub": "Find the fee or the interest. Say out loud what caused it. That's the whole move."
+      },
+      {
+        "type": "statement",
+        "headline": "The amount tells you what you owe. The why tells you what's repeating.",
+        "sub": "You were never careless. You were reading the safe half of the page."
+      }
+    ],
+    "endSlide": {
+      "question": "When did you last read past the amount due?",
+      "repLine": "Follow The Money Flinch. You never had a math problem."
+    },
+    "caption": "You never had a math problem — you had a line you kept skipping. Save this for your next statement, and read one line down. #moneyanxiety #financialtherapy #moneypsychology #moneymindset #personalfinance",
+    "firstComment": "How many statements have you paid without ever reading why the number was that number? Drop a number. Mine was years of them. No judgment.",
+    "day": 20
+  },
+  {
+    "slug": "budget-for-your-best-month",
+    "coverScene": "balance",
+    "coverConfig": {
+      "greeting": "This month you'll bring in",
+      "amount": "$5,200",
+      "blurred": false,
+      "label": "your best month, used as the plan"
+    },
+    "coverOverlay": {
+      "series": "AUTOPSY No. 5",
+      "hook": "You budget for the paycheck you rarely get",
+      "subhook": "so most months feel like failing"
+    },
+    "bodySlides": [
+      {
+        "type": "statement",
+        "headline": "You pick your best month and call it normal.",
+        "sub": "The big commission. The extra shifts. You build the whole plan on that one number."
+      },
+      {
+        "type": "statement",
+        "headline": "It feels safer to plan for the high one.",
+        "sub": "The good month is proof of what you can do. Planning for the low month feels like giving up on yourself."
+      },
+      {
+        "type": "card",
+        "term": "The peak anchor",
+        "definition": "Your brain remembers the highest amount you ever earned and treats it as the baseline. Every normal month then reads as coming up short.",
+        "headline": "",
+        "sub": ""
+      },
+      {
+        "type": "statement",
+        "headline": "Budget from the floor, not the ceiling.",
+        "sub": "Look at your last 6 to 12 months. Use the lowest one as your plan. Anything above that is extra, not expected."
+      },
+      {
+        "type": "statement",
+        "headline": "A budget is a promise you can keep.",
+        "sub": "When the plan matches a slow month, a good month feels like breathing room. You stop failing a number that was never real."
+      }
+    ],
+    "endSlide": {
+      "question": "What number do you plan around: your best month or your slowest one?",
+      "repLine": "Send this to the person who budgets like every month is December."
+    },
+    "caption": "You never had a math problem. You had a plan built for a paycheck that only shows up when everything goes right. Save this for the next slow month. #moneyanxiety #financialtherapy #moneypsychology #moneymindset #personalfinance",
+    "firstComment": "Be honest: how many months out of the last 12 did you actually hit your \"normal\" income number? Drop the count below. No judgment.",
+    "day": 21
+  },
+  {
+    "slug": "waiting-for-the-clean-start",
+    "coverScene": "list",
+    "coverConfig": {
+      "appTitle": "Reminders",
+      "badge": "3",
+      "tabLabel": "Money",
+      "rows": [
+        {
+          "left": "Start budget",
+          "right": "1st of the month",
+          "muted": false
+        },
+        {
+          "left": "Start budget",
+          "right": "next Monday",
+          "muted": true
+        },
+        {
+          "left": "Start budget",
+          "right": "after this trip",
+          "muted": true
+        }
+      ]
+    },
+    "coverOverlay": {
+      "series": "AUTOPSY No. 6",
+      "hook": "Your fresh start keeps moving",
+      "subhook": "So the plan never gets a day one."
+    },
+    "bodySlides": [
+      {
+        "type": "statement",
+        "headline": "You are waiting for a clean month to begin.",
+        "sub": "The 1st. Next Monday. After the trip. It keeps sliding."
+      },
+      {
+        "type": "statement",
+        "headline": "You want the start to feel spotless.",
+        "sub": "A messy middle-of-the-month start feels like it does not count."
+      },
+      {
+        "type": "card",
+        "term": "The fresh-start bias",
+        "definition": "Your brain trusts round dates more than plain ones.",
+        "headline": "This has a name.",
+        "sub": "So a Tuesday the 17th feels too small to matter. It is not."
+      },
+      {
+        "type": "statement",
+        "headline": "Start on the boring day you are in.",
+        "sub": "Track one thing you already spent today. That is day one."
+      },
+      {
+        "type": "statement",
+        "headline": "A start does not need to be clean to be real.",
+        "sub": "The month you have counts more than the month you keep picturing."
+      }
+    ],
+    "endSlide": {
+      "question": "What day were you waiting for?",
+      "repLine": "Follow The Money Flinch for one autopsy a week."
+    },
+    "caption": "You never had a math problem. You had a calendar you kept moving. Save this for the next time you tell yourself to wait for the 1st. #moneyanxiety #financialtherapy #moneypsychology #moneymindset #personalfinance",
+    "firstComment": "How many \"start dates\" have you set and skipped this year? Drop the number. Mine was 4. No judgment.",
+    "day": 22
+  },
+  {
+    "slug": "plan-only-in-your-head",
+    "coverScene": "settings",
+    "coverConfig": {
+      "title": "Your Money Plan",
+      "rows": [
+        {
+          "label": "Grocery budget",
+          "on": false
+        },
+        {
+          "label": "\"No spend\" week",
+          "on": false
+        },
+        {
+          "label": "Save the raise",
+          "on": false
+        },
+        {
+          "label": "Only in your head",
+          "on": true
+        }
+      ]
+    },
+    "coverOverlay": {
+      "series": "AUTOPSY No. 7",
+      "hook": "Your plan bends to fit the cart",
+      "subhook": "A plan you never wrote can say yes to anything."
+    },
+    "bodySlides": [
+      {
+        "type": "statement",
+        "headline": "You made the plan. You never wrote it down.",
+        "sub": "So it lives where you can quietly edit it."
+      },
+      {
+        "type": "statement",
+        "headline": "Then you find the thing you want.",
+        "sub": "And the plan slides over to make room for it."
+      },
+      {
+        "type": "card",
+        "term": "Mental accounting drift",
+        "definition": "A plan kept in your head has no fixed edges. Each purchase nudges the numbers until yes feels reasonable.",
+        "headline": "Why it keeps happening"
+      },
+      {
+        "type": "statement",
+        "headline": "Write one number down before you shop.",
+        "sub": "A plan on paper cannot move to meet the price tag."
+      },
+      {
+        "type": "statement",
+        "headline": "You never broke the plan.",
+        "sub": "You kept it somewhere it could not hold still."
+      }
+    ],
+    "endSlide": {
+      "question": "What did your head-plan let you buy this week?",
+      "repLine": "Follow The Money Flinch for one autopsy a week."
+    },
+    "caption": "You never had a math problem. Save this for the next time your plan starts shape-shifting at checkout. #moneyanxiety #financialtherapy #moneypsychology #moneymindset #personalfinance",
+    "firstComment": "On a scale of 1 to 10, how far does your in-your-head plan bend when you really want the thing? Drop your number. No judgment.",
+    "day": 23
+  },
+  {
+    "slug": "tracking-becomes-the-plan",
+    "coverScene": "list",
+    "coverConfig": {
+      "appTitle": "Spending Tracker",
+      "badge": "247",
+      "tabLabel": "This Month",
+      "rows": [
+        {
+          "left": "Coffee",
+          "right": "-$4.50",
+          "muted": false
+        },
+        {
+          "left": "Groceries",
+          "right": "-$62.10",
+          "muted": false
+        },
+        {
+          "left": "Gas",
+          "right": "-$40.00",
+          "muted": false
+        },
+        {
+          "left": "Lunch",
+          "right": "-$13.25",
+          "muted": false
+        },
+        {
+          "left": "Amount saved this month",
+          "right": "$0.00",
+          "muted": true
+        }
+      ]
+    },
+    "coverOverlay": {
+      "series": "AUTOPSY No. 8",
+      "hook": "You logged every dollar. You changed none.",
+      "subhook": "The tracking felt like doing the work."
+    },
+    "bodySlides": [
+      {
+        "type": "statement",
+        "headline": "You know exactly where your money goes.",
+        "sub": "Every coffee, every tab, logged to the cent. And nothing about your month is different."
+      },
+      {
+        "type": "statement",
+        "headline": "Watching money leave feels like managing it.",
+        "sub": "You get the small relief of being on top of things. So the ache to actually change quiets down."
+      },
+      {
+        "type": "card",
+        "term": "The Measurement Trap",
+        "definition": "Tracking is data collection. It tells you what happened. It never decides what happens next. You built a record, not a plan.",
+        "headline": "",
+        "sub": ""
+      },
+      {
+        "type": "statement",
+        "headline": "A plan makes a choice before the money moves.",
+        "sub": "Pick one number this week. Say what it is for. Move it out of reach the day you get paid."
+      },
+      {
+        "type": "statement",
+        "headline": "The goal was never to see the leak clearly.",
+        "sub": "It was to stop the leak. You never had a math problem. You had a plan that ended at watching."
+      }
+    ],
+    "endSlide": {
+      "question": "What is the one number your tracker keeps showing you that you keep ignoring?",
+      "repLine": "Follow for the next money autopsy."
+    },
+    "caption": "You never had a math problem. Save this for the next time your tracker feels like progress. #moneyanxiety #financialtherapy #moneypsychology #moneymindset #personalfinance",
+    "firstComment": "How many months have you tracked in a row without one plan coming out of it? Drop the number. No judgment.",
+    "day": 24
+  },
+  {
+    "slug": "buffer-becomes-spendable",
+    "coverScene": "balance",
+    "coverConfig": {
+      "greeting": "Checking",
+      "amount": "$412.68",
+      "blurred": false,
+      "label": "You left $400 here on purpose. Now it looks like money."
+    },
+    "coverOverlay": {
+      "series": "AUTOPSY No. 9",
+      "hook": "Your buffer quietly became your budget",
+      "subhook": "The cushion you swore not to touch"
+    },
+    "bodySlides": [
+      {
+        "type": "statement",
+        "headline": "You leave a little money in the account so nothing bounces. Within a week, you are spending it. The floor became the ceiling.",
+        "sub": "This is the behavior. Watch it happen in slow motion."
+      },
+      {
+        "type": "statement",
+        "headline": "You did the safe thing on purpose. But money sitting in checking has no sign on it. Your brain reads any visible balance as available.",
+        "sub": "You never had a math problem. You had an invisible label."
+      },
+      {
+        "type": "card",
+        "term": "Mental accounting",
+        "definition": "Your mind sorts money by feeling, not by rule. A buffer feels like savings on Monday and feels like spending money by Friday. Same dollars, new story.",
+        "headline": "Here is the quiet mechanism doing the damage."
+      },
+      {
+        "type": "statement",
+        "headline": "Move the buffer out of sight. Send it to a separate account with a boring name. If you cannot see it in checking, you stop counting it as yours to spend.",
+        "sub": "The fix is distance, not discipline."
+      },
+      {
+        "type": "statement",
+        "headline": "A buffer is not extra. It is the reason a surprise bill does not turn into a bad week. You are not hoarding. You are keeping a promise to next month.",
+        "sub": "Protected money is doing its job while it sits still."
+      }
+    ],
+    "endSlide": {
+      "question": "What is your buffer supposed to be, before it slowly becomes spending money?",
+      "repLine": "Follow The Money Flinch. You never had a math problem."
+    },
+    "caption": "You never had a math problem. You had an invisible label on your own money. Save this for the next time your buffer starts looking spendable. #moneyanxiety #financialtherapy #moneypsychology #moneymindset #personalfinance",
+    "firstComment": "Drop the size of the buffer you swore you would not touch, then touched anyway. Mine was $300 and lasted about nine days. No judgment.",
+    "day": 25
+  },
+  {
+    "slug": "save-whats-left-nothing-left",
+    "coverScene": "balance",
+    "coverConfig": {
+      "greeting": "End of the month",
+      "amount": "$4.17",
+      "blurred": false,
+      "label": "Left to save"
+    },
+    "coverOverlay": {
+      "series": "AUTOPSY No. 10",
+      "hook": "Saving last means saving never",
+      "subhook": "Why the leftover plan keeps dying"
+    },
+    "bodySlides": [
+      {
+        "type": "statement",
+        "headline": "You plan to save what is left over.",
+        "sub": "Spend all month, then keep the rest. The rest is the plan."
+      },
+      {
+        "type": "statement",
+        "headline": "But the leftover is a ghost.",
+        "sub": "Money with no name gets spent. A little here, a little there, gone."
+      },
+      {
+        "type": "card",
+        "term": "Leftover trap",
+        "definition": "You save last, so saving competes with every want you have all month. Wants always win, so nothing is left.",
+        "headline": "This has a name.",
+        "sub": ""
+      },
+      {
+        "type": "statement",
+        "headline": "Flip the order. Save first.",
+        "sub": "Set one auto transfer for payday. A small amount, moved before you spend."
+      },
+      {
+        "type": "statement",
+        "headline": "You never lacked leftovers.",
+        "sub": "You lacked a first move. Saving is not the rest. It goes at the top."
+      }
+    ],
+    "endSlide": {
+      "question": "What is your safe first-transfer number for payday?",
+      "repLine": "You never had a math problem."
+    },
+    "caption": "You never had a math problem. Saving was last in line, so it never got a turn. Move a small amount on payday, before anything else, and let the leftover be the spending. Save this so future you sees it on your next payday. #moneyanxiety #financialtherapy #moneypsychology #moneymindset #personalfinance",
+    "firstComment": "Real number: how much was left to save at the end of last month? Mine once hit single digits. Drop yours. No judgment.",
+    "day": 26
+  },
+  {
+    "slug": "goal-so-big-it-feels-fake",
+    "coverScene": "list",
+    "coverConfig": {
+      "appTitle": "Savings Goal",
+      "rows": [
+        {
+          "left": "Target",
+          "right": "$100,000",
+          "muted": false
+        },
+        {
+          "left": "Saved so far",
+          "right": "$0",
+          "muted": true
+        },
+        {
+          "left": "This week",
+          "right": "$0",
+          "muted": true
+        }
+      ],
+      "badge": "0%",
+      "tabLabel": "Goals"
+    },
+    "coverOverlay": {
+      "series": "AUTOPSY No. 11",
+      "hook": "The goal so big you froze",
+      "subhook": "Why the number scared you still"
+    },
+    "bodySlides": [
+      {
+        "type": "statement",
+        "headline": "You picked a number you can't picture.",
+        "sub": "Then you waited to feel ready. You are still waiting."
+      },
+      {
+        "type": "statement",
+        "headline": "A goal you can't picture can't pull you.",
+        "sub": "Your brain treats it like a story, not a plan. So it files it under later."
+      },
+      {
+        "type": "card",
+        "term": "The blank-brain gap",
+        "definition": "When a target feels fake, your brain can't run the steps. No steps means no first move. The size did that, not you.",
+        "headline": "Here is the part nobody names."
+      },
+      {
+        "type": "statement",
+        "headline": "Shrink the goal until step one is boring.",
+        "sub": "Pick the amount you could move today without thinking. Move that. The big number can wait."
+      },
+      {
+        "type": "statement",
+        "headline": "You never froze from being lazy.",
+        "sub": "You froze because the plan was too big to hold. A smaller aim is not a smaller you."
+      }
+    ],
+    "endSlide": {
+      "question": "What number felt so big you stopped before you started?",
+      "repLine": "Follow The Money Flinch. You never had a math problem."
+    },
+    "caption": "You never had a math problem. You had a number your brain could not picture, so it filed the whole plan under later. Shrink the aim until step one feels boring, then move that. Save this for the next time a goal freezes you. #moneyanxiety #financialtherapy #moneypsychology #moneymindset #personalfinance",
+    "firstComment": "Drop the goal number that felt too big to start. Mine sat untouched for two years. No judgment.",
+    "day": 27
+  },
+  {
+    "slug": "moving-your-own-goalpost",
+    "coverScene": "balance",
+    "coverConfig": {
+      "greeting": "Almost there",
+      "amount": "$4,812",
+      "blurred": false,
+      "label": "Emergency fund — goal was $5,000"
+    },
+    "coverOverlay": {
+      "series": "AUTOPSY No. 12",
+      "hook": "You keep moving your own finish line",
+      "subhook": "The goal was close. So you made a new one."
+    },
+    "bodySlides": [
+      {
+        "type": "statement",
+        "headline": "You get close, then you quietly raise the number.",
+        "sub": "The $5,000 fund hits $4,800. You decide it should really be $8,000. You never let yourself arrive."
+      },
+      {
+        "type": "statement",
+        "headline": "Finishing is scary. Chasing feels safe.",
+        "sub": "While you chase, you can not fail. A finished goal asks a new question: now what? Moving the line lets you skip that."
+      },
+      {
+        "type": "card",
+        "term": "The receding goal",
+        "definition": "A target you push back the moment you near it. The gap between you and done stays the same on purpose, so you never test whether you were enough.",
+        "headline": "This has a name.",
+        "sub": "Naming it makes it easier to catch in the act."
+      },
+      {
+        "type": "statement",
+        "headline": "Write the number down and let it be done.",
+        "sub": "Pick the target once. Put it where you can see it. When you hit it, mark it finished before you touch a new goal."
+      },
+      {
+        "type": "statement",
+        "headline": "You are allowed to reach the line.",
+        "sub": "A goal you never finish was never a goal. It was a way to stay busy. Let one thing be complete."
+      }
+    ],
+    "endSlide": {
+      "question": "What number have you quietly moved this year?",
+      "repLine": "Follow The Money Flinch. You never had a math problem."
+    },
+    "caption": "You never had a math problem. Save this for the next time you catch yourself raising the number right before you hit it. #moneyanxiety #financialtherapy #moneypsychology #moneymindset #personalfinance",
+    "firstComment": "How many times have you moved your own goalpost this year? Drop the number. Mine is 3. No judgment.",
+    "day": 28
+  },
+  {
+    "slug": "screenshot-the-scariest-bill",
+    "coverScene": "notification",
+    "coverConfig": {
+      "time": "11:47 PM",
+      "cards": [
+        {
+          "app": "Wallet",
+          "title": "Payment due soon",
+          "body": "You have 1 balance you keep swiping past."
+        },
+        {
+          "app": "Camera",
+          "title": "Screenshot saved",
+          "body": "The bill you have been avoiding is now sitting in your photos."
+        }
+      ]
+    },
+    "coverOverlay": {
+      "series": "2-MINUTE REP No. 5",
+      "hook": "Take a photo of the scary one",
+      "subhook": "The bill you keep not-looking-at"
+    },
+    "bodySlides": [
+      {
+        "type": "statement",
+        "headline": "You have one bill you never open.",
+        "sub": "You know the amount is bad, so you leave it closed. Your eyes slide past the app every time."
+      },
+      {
+        "type": "statement",
+        "headline": "It is not the number that scares you.",
+        "sub": "It is not knowing the number. Your brain fills the blank with the worst version it can imagine."
+      },
+      {
+        "type": "card",
+        "term": "The blur tax",
+        "definition": "When you refuse to look at a bill, your mind assumes the biggest possible size. You pay in dread every day instead of paying once with your eyes.",
+        "headline": "",
+        "sub": ""
+      },
+      {
+        "type": "statement",
+        "headline": "So take a screenshot of it.",
+        "sub": "Open the one bill you fear most. Do not pay it. Do not fix it. Point your camera and capture the real number."
+      },
+      {
+        "type": "statement",
+        "headline": "A number you can see is smaller than one you imagine.",
+        "sub": "The screenshot turns a monster into a fact. Facts can be handled. Fog cannot."
+      }
+    ],
+    "endSlide": {
+      "question": "Which bill did you screenshot first?",
+      "repLine": "Rep No. 5 done. You looked. That was the hard part."
+    },
+    "caption": "You never had a math problem. You had a bill you would not look at. Today you looked. Save this for the night you keep swiping past the one you fear. #moneyanxiety #financialtherapy #moneypsychology #moneymindset #personalfinance",
+    "firstComment": "Drop the first letter of the bill you avoid most. C for card, R for rent, M for medical. I will start: M. No judgment.",
+    "day": 29
+  },
+  {
+    "slug": "add-three-smallest-subscriptions",
+    "coverScene": "list",
+    "coverConfig": {
+      "appTitle": "Subscriptions",
+      "rows": [
+        {
+          "left": "Cloud Photos",
+          "right": "$2.99",
+          "muted": false
+        },
+        {
+          "left": "Meditation app",
+          "right": "$4.99",
+          "muted": false
+        },
+        {
+          "left": "Word game (no ads)",
+          "right": "$1.99",
+          "muted": false
+        }
+      ],
+      "badge": "3",
+      "tabLabel": "Smallest first"
+    },
+    "coverOverlay": {
+      "series": "2-MINUTE REP No. 6",
+      "hook": "Say your three tiny ones out loud",
+      "subhook": "The small numbers hide the best"
+    },
+    "bodySlides": [
+      {
+        "type": "statement",
+        "headline": "You watch the big bills. The small ones you let ride.",
+        "sub": "A few dollars feels too small to look at, so you never do."
+      },
+      {
+        "type": "card",
+        "term": "Denominator blindness",
+        "definition": "Small numbers feel like nothing next to big ones, so your brain rounds them down to zero. Three dollars stops counting as money.",
+        "headline": "Why the tiny ones slip past you"
+      },
+      {
+        "type": "statement",
+        "headline": "Saying it out loud breaks the spell.",
+        "sub": "Reading skims. Your voice makes the number land as real money leaving you."
+      },
+      {
+        "type": "statement",
+        "headline": "Open your subscriptions. Find the three smallest. Say each price out loud, then the total.",
+        "sub": "Two dollars. Five dollars. Two dollars. Nine dollars a month. Now you can decide."
+      },
+      {
+        "type": "statement",
+        "headline": "You are not bad with money. You were told to look away.",
+        "sub": "Naming the small ones is not shame. It is you finally seeing the whole picture."
+      }
+    ],
+    "endSlide": {
+      "question": "Which tiny one did you forget you still pay for?",
+      "repLine": "Rep No. 6 done. You said the small numbers out loud."
+    },
+    "caption": "You never had a math problem. You had three small numbers you were never allowed to see. Save this and do the two-minute rep before your next renewal. #moneyanxiety #financialtherapy #moneypsychology #moneymindset #personalfinance",
+    "firstComment": "Drop the total of your three smallest subscriptions. Mine was $9.97 and one of them I forgot I had. No judgment.",
+    "day": 30
+  },
+  {
+    "slug": "turn-on-low-balance-alert",
+    "coverScene": "settings",
+    "coverConfig": {
+      "title": "Alerts",
+      "rows": [
+        {
+          "label": "Low balance alert",
+          "on": false
+        },
+        {
+          "label": "Large purchase alert",
+          "on": true
+        },
+        {
+          "label": "Deposit received",
+          "on": true
+        },
+        {
+          "label": "Weekly summary",
+          "on": false
+        }
+      ]
+    },
+    "coverOverlay": {
+      "series": "2-MINUTE REP No. 7",
+      "hook": "The one alert you keep leaving off",
+      "subhook": "Two minutes. One toggle. Do it with me."
+    },
+    "bodySlides": [
+      {
+        "type": "statement",
+        "headline": "You leave the low-balance alert off on purpose.",
+        "sub": "Every other alert is on. This one stays dark. You told yourself you would turn it on later."
+      },
+      {
+        "type": "statement",
+        "headline": "Off feels safer than knowing.",
+        "sub": "The alert does not cost you money. It shows you a number you already sense is low. So you keep the number out of sight."
+      },
+      {
+        "type": "card",
+        "term": "The ostrich effect",
+        "definition": "When money feels tense, your brain avoids the info, not the problem. Looking away feels like relief. It only delays the hit.",
+        "headline": "This has a name.",
+        "sub": "You are not lazy. You are ducking a feeling."
+      },
+      {
+        "type": "statement",
+        "headline": "The alert moves the bad news earlier.",
+        "sub": "A heads-up at a set amount lets you slow down before an overdraft fee lands. Early beats surprised."
+      },
+      {
+        "type": "statement",
+        "headline": "You are not avoiding math. You are avoiding a feeling.",
+        "sub": "Turn the alert on and the number stops sneaking up on you. You get to meet it on your own terms."
+      }
+    ],
+    "endSlide": {
+      "question": "What number would you set your alert at?",
+      "repLine": "Open your bank app. Alerts. Flip on low balance. Two minutes, done."
+    },
+    "caption": "You never had a math problem. Save this for the next time you swipe the alert away. #moneyanxiety #financialtherapy #moneypsychology #moneymindset #personalfinance",
+    "firstComment": "How many times have you declined this exact alert? Drop the number. No judgment.",
+    "day": 31
+  },
+  {
+    "slug": "open-the-receipt-folder",
+    "coverScene": "list",
+    "coverConfig": {
+      "appTitle": "Receipts",
+      "badge": "247",
+      "tabLabel": "Files",
+      "rows": [
+        {
+          "left": "Amazon_order.pdf",
+          "right": "unopened",
+          "muted": true
+        },
+        {
+          "left": "Pharmacy_receipt.pdf",
+          "right": "unopened",
+          "muted": true
+        },
+        {
+          "left": "Car_repair.pdf",
+          "right": "unopened",
+          "muted": true
+        },
+        {
+          "left": "Vet_visit.pdf",
+          "right": "unopened",
+          "muted": true
+        },
+        {
+          "left": "Grocery_run.pdf",
+          "right": "unopened",
+          "muted": true
+        }
+      ]
+    },
+    "coverOverlay": {
+      "series": "2-MINUTE REP No. 8",
+      "hook": "The folder you scroll past on purpose",
+      "subhook": "Two minutes. One folder. Eyes open."
+    },
+    "bodySlides": [
+      {
+        "type": "statement",
+        "headline": "You have a folder you never open.",
+        "sub": "Receipts, orders, one bill you flinched at. You know it is there. You keep scrolling past it."
+      },
+      {
+        "type": "statement",
+        "headline": "Not opening it is the whole point.",
+        "sub": "The folder holds numbers you already spent. Looking makes them real again. So your hand slides past, every time."
+      },
+      {
+        "type": "card",
+        "term": "The unopened tab",
+        "definition": "A closed folder feels like a closed decision. Your brain reads shut as safe. But nothing inside changes while you look away. It only grows quiet and larger.",
+        "headline": "",
+        "sub": ""
+      },
+      {
+        "type": "statement",
+        "headline": "Open it. Read three receipts.",
+        "sub": "Set a two-minute timer. Open the folder. Read three, top to bottom. Not all of them. Three. Then close the timer, not the feeling."
+      },
+      {
+        "type": "statement",
+        "headline": "The folder was never the threat.",
+        "sub": "Three receipts later, your heart is still beating. The number was always this size. Now you are the one holding it."
+      }
+    ],
+    "endSlide": {
+      "question": "How many receipts are sitting in your never-open folder?",
+      "repLine": "Rep No. 8 done. Two minutes. Eyes open. Follow The Money Flinch for the next one."
+    },
+    "caption": "You never had a math problem. Save this for the next time your thumb scrolls past that folder on purpose. #moneyanxiety #financialtherapy #moneypsychology #moneymindset #personalfinance",
+    "firstComment": "Drop the number of unopened receipts in your folder. I will start: mine sat at 212 before today. No judgment.",
+    "day": 32
+  },
+  {
+    "slug": "unhide-the-bank-app",
+    "coverScene": "settings",
+    "coverConfig": {
+      "title": "Home Screen",
+      "rows": [
+        {
+          "label": "Bank app on Page 1",
+          "on": false
+        },
+        {
+          "label": "Bank app on last page",
+          "on": true
+        },
+        {
+          "label": "Notifications off",
+          "on": true
+        }
+      ]
+    },
+    "coverOverlay": {
+      "series": "2-MINUTE REP No. 9",
+      "hook": "You moved the app so you'd forget",
+      "subhook": "Two minutes. Move it back."
+    },
+    "bodySlides": [
+      {
+        "type": "statement",
+        "headline": "You dragged the bank app to the last screen on purpose."
+      },
+      {
+        "type": "statement",
+        "headline": "You told yourself it was about a tidy home screen. It was about not looking."
+      },
+      {
+        "type": "card",
+        "term": "Out of sight, out of mind",
+        "definition": "When you hide a thing, your brain treats it as handled. The worry quiets. The balance keeps moving without you.",
+        "sub": "Distance is not safety. It only feels like it."
+      },
+      {
+        "type": "statement",
+        "headline": "Press and hold the app. Drag it back to your first screen, next to the ones you open all day."
+      },
+      {
+        "type": "statement",
+        "headline": "Seeing it is not the same as fixing it. But you cannot fix what you refuse to see."
+      }
+    ],
+    "endSlide": {
+      "question": "What app did you bury so you would stop looking?",
+      "repLine": "Rep No. 9 done. You moved it back. That counts."
+    },
+    "caption": "You never had a math problem. You had an app you hid on purpose. Save this and do the two-minute rep now. #moneyanxiety #financialtherapy #moneypsychology #moneymindset #personalfinance",
+    "firstComment": "How many screens deep is your bank app right now? Drop the number. Mine was 4. No judgment.",
+    "day": 33
+  },
+  {
+    "slug": "write-the-real-due-date",
+    "coverScene": "list",
+    "coverConfig": {
+      "appTitle": "Bills",
+      "rows": [
+        {
+          "left": "Electric",
+          "right": "Soon",
+          "muted": true
+        },
+        {
+          "left": "Phone",
+          "right": "Soon",
+          "muted": true
+        },
+        {
+          "left": "Credit card",
+          "right": "Soon",
+          "muted": true
+        },
+        {
+          "left": "Water",
+          "right": "Soon",
+          "muted": true
+        }
+      ],
+      "badge": "4",
+      "tabLabel": "Due"
+    },
+    "coverOverlay": {
+      "series": "2-MINUTE REP No. 10",
+      "hook": "Your brain can't pay 'soon'",
+      "subhook": "So it waits. Then the late fee lands."
+    },
+    "bodySlides": [
+      {
+        "type": "statement",
+        "headline": "You write 'soon,' not a date.",
+        "sub": "It feels kind. It asks nothing of you today."
+      },
+      {
+        "type": "statement",
+        "headline": "'Soon' keeps the bill fuzzy.",
+        "sub": "A blurry bill can't make you feel behind. So you leave it blurry."
+      },
+      {
+        "type": "card",
+        "term": "Deadline blur",
+        "definition": "With no real date, your brain calls the bill 'later.' Later never lands on a day. The late fee does."
+      },
+      {
+        "type": "statement",
+        "headline": "Open the bill. Find the real date.",
+        "sub": "Write it where you look. 'Due Aug 3,' not 'soon.' Two minutes, done."
+      },
+      {
+        "type": "statement",
+        "headline": "A real date is the smaller ask.",
+        "sub": "'Soon' makes you worry every day. 'Aug 3' asks you once, then lets go."
+      }
+    ],
+    "endSlide": {
+      "question": "What bill are you calling 'soon' right now?",
+      "repLine": "Rep No. 10 — write the real date, not 'soon.'"
+    },
+    "caption": "You never had a math problem. You had a bill you kept blurry. Save this for the next date you'd rather not name. #moneyanxiety #financialtherapy #moneypsychology #moneymindset #personalfinance",
+    "firstComment": "How many bills are you keeping as 'soon' right now? Drop the number. I'll go first: 4. No judgment.",
+    "day": 34
+  },
+  {
+    "slug": "read-one-line-of-your-terms",
+    "coverScene": "settings",
+    "coverConfig": {
+      "title": "Subscriptions",
+      "rows": [
+        {
+          "label": "Cancel anytime",
+          "on": true
+        },
+        {
+          "label": "Auto-renews yearly",
+          "on": true
+        },
+        {
+          "label": "Read the terms",
+          "on": false
+        }
+      ]
+    },
+    "coverOverlay": {
+      "series": "2-MINUTE REP No. 11",
+      "hook": "You agreed to something you never read",
+      "subhook": "Open one subscription. Read one line. That's the whole rep."
+    },
+    "bodySlides": [
+      {
+        "type": "statement",
+        "headline": "You pay for it every month and you have never once read what it says."
+      },
+      {
+        "type": "statement",
+        "headline": "You skip the terms because reading them feels like admitting you might be trapped."
+      },
+      {
+        "type": "card",
+        "term": "The auto-renew clause",
+        "definition": "One line in your terms says when it renews, what it costs next, and how many days you have to cancel. That line is where the money leaks."
+      },
+      {
+        "type": "statement",
+        "headline": "Open one subscription right now. Read one line of its terms. Only one. Then close it."
+      },
+      {
+        "type": "statement",
+        "headline": "You were never bad with money. You were kept in the dark, and you stopped looking."
+      }
+    ],
+    "endSlide": {
+      "question": "Which subscription have you never read the terms of?",
+      "repLine": "That was rep No. 11. One line. You looked."
+    },
+    "caption": "You never had a math problem. You had a subscription you were scared to read. Save this and do the one-line rep tonight. #moneyanxiety #financialtherapy #moneypsychology #moneymindset #personalfinance",
+    "firstComment": "How many subscriptions are you paying for that you have never read the terms of? Drop the number. Mine was 6. No judgment.",
+    "day": 35
+  },
+  {
+    "slug": "star-the-mystery-charge",
+    "coverScene": "list",
+    "coverConfig": {
+      "appTitle": "Recurring",
+      "badge": "1",
+      "tabLabel": "Subscriptions",
+      "rows": [
+        {
+          "left": "Streaming Plus",
+          "right": "$14.99",
+          "muted": false
+        },
+        {
+          "left": "Cloud Storage",
+          "right": "$2.99",
+          "muted": true
+        },
+        {
+          "left": "??? Monthly",
+          "right": "$9.99",
+          "muted": false
+        },
+        {
+          "left": "Music Family",
+          "right": "$16.99",
+          "muted": true
+        },
+        {
+          "left": "Fitness App",
+          "right": "$12.99",
+          "muted": true
+        }
+      ]
+    },
+    "coverOverlay": {
+      "series": "2-MINUTE REP No. 12",
+      "hook": "One charge you don't remember saying yes to",
+      "subhook": "Star it. Don't cancel it yet."
+    },
+    "bodySlides": [
+      {
+        "type": "statement",
+        "headline": "You scroll past a charge and think, what is that.",
+        "sub": "Then you close the app and let it renew again."
+      },
+      {
+        "type": "card",
+        "term": "Passive renewal",
+        "definition": "The charge repeats on its own. You said yes one time, and the yes keeps working while your memory fades.",
+        "headline": "This has a name."
+      },
+      {
+        "type": "statement",
+        "headline": "You are not careless. The charge was built to be quiet.",
+        "sub": "No reminder comes. Silence is how it stays on your card."
+      },
+      {
+        "type": "statement",
+        "headline": "Open your card app. Find one charge you can't place.",
+        "sub": "Put a star or a note on it. That is the whole rep."
+      },
+      {
+        "type": "statement",
+        "headline": "Starring is not canceling. It is seeing.",
+        "sub": "You can decide later. First you let yourself notice it."
+      }
+    ],
+    "endSlide": {
+      "question": "What was the charge you forgot you agreed to?",
+      "repLine": "Rep No. 12: star the one you can't explain."
+    },
+    "caption": "You never had a math problem. You had a charge nobody reminded you about. Save this for the two minutes you open your card app tonight. #moneyanxiety #financialtherapy #moneypsychology #moneymindset #personalfinance",
+    "firstComment": "Drop the dollar amount of the charge you forgot you agreed to. I'll start: mine was $9.99 for eight months. No judgment.",
+    "day": 36
   }
 ]

@@ -1,19 +1,231 @@
 {
   "_comment": "Every behavior/topic and named term ever used. The autonomous generator reads this, invents only NEW topics, and appends here. Prevents duplication forever.",
-  "pillars": ["name-the-behavior", "self-sabotage-autopsy", "two-minute-exposure"],
-  "series_counters": { "FLINCH FILE": 4, "AUTOPSY": 4, "2-MINUTE REP": 4 },
+  "pillars": [
+    "name-the-behavior",
+    "self-sabotage-autopsy",
+    "two-minute-exposure"
+  ],
+  "series_counters": {
+    "FLINCH FILE": 12,
+    "AUTOPSY": 12,
+    "2-MINUTE REP": 12
+  },
   "used": [
-    { "slug": "after-check", "pillar": "name-the-behavior", "term": "THE AFTER-CHECK", "topic": "checking your balance only after you buy, at 1am, to brace not plan" },
-    { "slug": "fog-number", "pillar": "name-the-behavior", "term": "THE FOG NUMBER", "topic": "knowing your balance as a vibe, not a number" },
-    { "slug": "budget-autopsy", "pillar": "self-sabotage-autopsy", "term": "THE AFTER-THOUGHT", "topic": "one slip on day 8 makes you declare the month ruined and stop" },
-    { "slug": "shame-archive", "pillar": "name-the-behavior", "term": "THE ARCHIVE", "topic": "the folder where unread bank emails pile up as dread" },
-    { "slug": "first-look", "pillar": "two-minute-exposure", "term": null, "topic": "open the app, look at one number, close it — look don't fix" },
-    { "slug": "savings-name", "pillar": "self-sabotage-autopsy", "term": null, "topic": "a savings account named 'Savings' is easy to raid; rename it with a story" },
-    { "slug": "muted-messenger", "pillar": "name-the-behavior", "term": null, "topic": "muting your bank's alerts and calling it self-care; turn deposits back on" },
-    { "slug": "friday-reversal", "pillar": "self-sabotage-autopsy", "term": null, "topic": "auto-saving Monday then pulling it back by Friday; move transfer to payday" },
-    { "slug": "midnight-card", "pillar": "two-minute-exposure", "term": null, "topic": "deleting the saved card from the one site that gets you at midnight" },
-    { "slug": "budget-job", "pillar": "self-sabotage-autopsy", "term": null, "topic": "a 23-category budget is an unpaid job; cut to three numbers" },
-    { "slug": "day17-ambush", "pillar": "two-minute-exposure", "term": null, "topic": "mid-month bill ambush; move one due date to after payday" },
-    { "slug": "identity-sub", "pillar": "two-minute-exposure", "term": null, "topic": "cancelling the subscription you keep for the person you meant to become" }
+    {
+      "slug": "after-check",
+      "pillar": "name-the-behavior",
+      "term": "THE AFTER-CHECK",
+      "topic": "checking your balance only after you buy, at 1am, to brace not plan"
+    },
+    {
+      "slug": "fog-number",
+      "pillar": "name-the-behavior",
+      "term": "THE FOG NUMBER",
+      "topic": "knowing your balance as a vibe, not a number"
+    },
+    {
+      "slug": "budget-autopsy",
+      "pillar": "self-sabotage-autopsy",
+      "term": "THE AFTER-THOUGHT",
+      "topic": "one slip on day 8 makes you declare the month ruined and stop"
+    },
+    {
+      "slug": "shame-archive",
+      "pillar": "name-the-behavior",
+      "term": "THE ARCHIVE",
+      "topic": "the folder where unread bank emails pile up as dread"
+    },
+    {
+      "slug": "first-look",
+      "pillar": "two-minute-exposure",
+      "term": null,
+      "topic": "open the app, look at one number, close it — look don't fix"
+    },
+    {
+      "slug": "savings-name",
+      "pillar": "self-sabotage-autopsy",
+      "term": null,
+      "topic": "a savings account named 'Savings' is easy to raid; rename it with a story"
+    },
+    {
+      "slug": "muted-messenger",
+      "pillar": "name-the-behavior",
+      "term": null,
+      "topic": "muting your bank's alerts and calling it self-care; turn deposits back on"
+    },
+    {
+      "slug": "friday-reversal",
+      "pillar": "self-sabotage-autopsy",
+      "term": null,
+      "topic": "auto-saving Monday then pulling it back by Friday; move transfer to payday"
+    },
+    {
+      "slug": "midnight-card",
+      "pillar": "two-minute-exposure",
+      "term": null,
+      "topic": "deleting the saved card from the one site that gets you at midnight"
+    },
+    {
+      "slug": "budget-job",
+      "pillar": "self-sabotage-autopsy",
+      "term": null,
+      "topic": "a 23-category budget is an unpaid job; cut to three numbers"
+    },
+    {
+      "slug": "day17-ambush",
+      "pillar": "two-minute-exposure",
+      "term": null,
+      "topic": "mid-month bill ambush; move one due date to after payday"
+    },
+    {
+      "slug": "identity-sub",
+      "pillar": "two-minute-exposure",
+      "term": null,
+      "topic": "cancelling the subscription you keep for the person you meant to become"
+    },
+    {
+      "slug": "emergency-card-main-card",
+      "pillar": "name-the-behavior",
+      "term": null,
+      "topic": "Leaving one card 'for emergencies' that you have quietly been living on since March"
+    },
+    {
+      "slug": "declined-as-balance-alert",
+      "pillar": "name-the-behavior",
+      "term": null,
+      "topic": "Waiting until the card gets declined to admit the money is gone"
+    },
+    {
+      "slug": "minimum-due-called-handled",
+      "pillar": "name-the-behavior",
+      "term": null,
+      "topic": "Paying the minimum and calling it 'handled' for the month"
+    },
+    {
+      "slug": "screenshot-the-bill",
+      "pillar": "name-the-behavior",
+      "term": null,
+      "topic": "Screenshotting a bill instead of paying it, then never opening the screenshot"
+    },
+    {
+      "slug": "self-checkout-no-witness",
+      "pillar": "name-the-behavior",
+      "term": null,
+      "topic": "Choosing the self-checkout so no cashier watches your total climb"
+    },
+    {
+      "slug": "friend-covers-figure-it-out-later",
+      "pillar": "name-the-behavior",
+      "term": null,
+      "topic": "Letting a friend cover it now and both of you agreeing to 'figure it out later'"
+    },
+    {
+      "slug": "buy-right-after-deposit",
+      "pillar": "name-the-behavior",
+      "term": null,
+      "topic": "Timing the purchase for right after a deposit so it feels free"
+    },
+    {
+      "slug": "amount-due-not-the-why",
+      "pillar": "name-the-behavior",
+      "term": null,
+      "topic": "Reading only the 'amount due' line and skipping the part that says why"
+    },
+    {
+      "slug": "budget-for-your-best-month",
+      "pillar": "self-sabotage-autopsy",
+      "term": null,
+      "topic": "You build the whole budget for a paycheck that only shows up in good months"
+    },
+    {
+      "slug": "waiting-for-the-clean-start",
+      "pillar": "self-sabotage-autopsy",
+      "term": null,
+      "topic": "You wait for the 'clean start' month, so nothing starts"
+    },
+    {
+      "slug": "plan-only-in-your-head",
+      "pillar": "self-sabotage-autopsy",
+      "term": null,
+      "topic": "You keep the plan only in your head, so it changes shape to fit the purchase"
+    },
+    {
+      "slug": "tracking-becomes-the-plan",
+      "pillar": "self-sabotage-autopsy",
+      "term": null,
+      "topic": "You track spending so carefully that tracking becomes the whole plan"
+    },
+    {
+      "slug": "buffer-becomes-spendable",
+      "pillar": "self-sabotage-autopsy",
+      "term": null,
+      "topic": "You leave a buffer, then treat the buffer as spendable"
+    },
+    {
+      "slug": "save-whats-left-nothing-left",
+      "pillar": "self-sabotage-autopsy",
+      "term": null,
+      "topic": "You save whatever is left at the end, and nothing is ever left"
+    },
+    {
+      "slug": "goal-so-big-it-feels-fake",
+      "pillar": "self-sabotage-autopsy",
+      "term": null,
+      "topic": "You aim the plan at a number so big it feels fake, so you never start"
+    },
+    {
+      "slug": "moving-your-own-goalpost",
+      "pillar": "self-sabotage-autopsy",
+      "term": null,
+      "topic": "You quietly move the goalpost every time you get close to hitting it"
+    },
+    {
+      "slug": "screenshot-the-scariest-bill",
+      "pillar": "two-minute-exposure",
+      "term": null,
+      "topic": "screenshot the one bill that scares you most"
+    },
+    {
+      "slug": "add-three-smallest-subscriptions",
+      "pillar": "two-minute-exposure",
+      "term": null,
+      "topic": "add up your three smallest subscriptions out loud"
+    },
+    {
+      "slug": "turn-on-low-balance-alert",
+      "pillar": "two-minute-exposure",
+      "term": null,
+      "topic": "turn on the low-balance alert you keep declining"
+    },
+    {
+      "slug": "open-the-receipt-folder",
+      "pillar": "two-minute-exposure",
+      "term": null,
+      "topic": "open the folder of receipts you never open"
+    },
+    {
+      "slug": "unhide-the-bank-app",
+      "pillar": "two-minute-exposure",
+      "term": null,
+      "topic": "unhide the app you moved to the last home screen"
+    },
+    {
+      "slug": "write-the-real-due-date",
+      "pillar": "two-minute-exposure",
+      "term": null,
+      "topic": "write the actual due date on the bill, not 'soon'"
+    },
+    {
+      "slug": "read-one-line-of-your-terms",
+      "pillar": "two-minute-exposure",
+      "term": null,
+      "topic": "read one line of the terms on your own subscription"
+    },
+    {
+      "slug": "star-the-mystery-charge",
+      "pillar": "two-minute-exposure",
+      "term": null,
+      "topic": "star the one recurring charge you forgot you agreed to"
+    }
   ]
 }
