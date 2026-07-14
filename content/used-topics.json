@@ -1,0 +1,19 @@
+{
+  "_comment": "Every behavior/topic and named term ever used. The autonomous generator reads this, invents only NEW topics, and appends here. Prevents duplication forever.",
+  "pillars": ["name-the-behavior", "self-sabotage-autopsy", "two-minute-exposure"],
+  "series_counters": { "FLINCH FILE": 4, "AUTOPSY": 4, "2-MINUTE REP": 4 },
+  "used": [
+    { "slug": "after-check", "pillar": "name-the-behavior", "term": "THE AFTER-CHECK", "topic": "checking your balance only after you buy, at 1am, to brace not plan" },
+    { "slug": "fog-number", "pillar": "name-the-behavior", "term": "THE FOG NUMBER", "topic": "knowing your balance as a vibe, not a number" },
+    { "slug": "budget-autopsy", "pillar": "self-sabotage-autopsy", "term": "THE AFTER-THOUGHT", "topic": "one slip on day 8 makes you declare the month ruined and stop" },
+    { "slug": "shame-archive", "pillar": "name-the-behavior", "term": "THE ARCHIVE", "topic": "the folder where unread bank emails pile up as dread" },
+    { "slug": "first-look", "pillar": "two-minute-exposure", "term": null, "topic": "open the app, look at one number, close it — look don't fix" },
+    { "slug": "savings-name", "pillar": "self-sabotage-autopsy", "term": null, "topic": "a savings account named 'Savings' is easy to raid; rename it with a story" },
+    { "slug": "muted-messenger", "pillar": "name-the-behavior", "term": null, "topic": "muting your bank's alerts and calling it self-care; turn deposits back on" },
+    { "slug": "friday-reversal", "pillar": "self-sabotage-autopsy", "term": null, "topic": "auto-saving Monday then pulling it back by Friday; move transfer to payday" },
+    { "slug": "midnight-card", "pillar": "two-minute-exposure", "term": null, "topic": "deleting the saved card from the one site that gets you at midnight" },
+    { "slug": "budget-job", "pillar": "self-sabotage-autopsy", "term": null, "topic": "a 23-category budget is an unpaid job; cut to three numbers" },
+    { "slug": "day17-ambush", "pillar": "two-minute-exposure", "term": null, "topic": "mid-month bill ambush; move one due date to after payday" },
+    { "slug": "identity-sub", "pillar": "two-minute-exposure", "term": null, "topic": "cancelling the subscription you keep for the person you meant to become" }
+  ]
+}

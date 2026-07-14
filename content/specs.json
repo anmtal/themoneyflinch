@@ -1,0 +1,631 @@
+[
+  {
+    "slug": "after-check",
+    "coverScene": "notification",
+    "coverConfig": {
+      "time": "1:04",
+      "cards": [
+        {
+          "app": "BANK",
+          "title": "Balance update",
+          "body": "Your available balance has changed."
+        }
+      ]
+    },
+    "coverOverlay": {
+      "series": "FLINCH FILE No. 1",
+      "hook": "You always look after, never before",
+      "subhook": "And you already know why you wait ->"
+    },
+    "bodySlides": [
+      {
+        "type": "statement",
+        "headline": "You buy the thing first. You check the number after.",
+        "sub": "At 1am. Not to plan. To brace."
+      },
+      {
+        "type": "statement",
+        "headline": "You look after so the number can't stop you.",
+        "sub": "It can only grade you."
+      },
+      {
+        "type": "statement",
+        "headline": "Before, the number gets a vote. After, it gets a verdict.",
+        "sub": "You pick the verdict on purpose."
+      },
+      {
+        "type": "card",
+        "term": "THE AFTER-CHECK",
+        "definition": "Looking at your money once it is too late to change the answer."
+      },
+      {
+        "type": "statement",
+        "headline": "This week, before one buy, look at the number first.",
+        "sub": "Same app. Same number. This time it gets a say."
+      }
+    ],
+    "endSlide": {
+      "question": "How long since you looked before buying?",
+      "repLine": "Days, weeks, years — drop it. No judgment."
+    },
+    "day": 1
+  },
+  {
+    "slug": "fog-number",
+    "coverScene": "balance",
+    "coverConfig": {
+      "greeting": "Available balance",
+      "amount": "$412.68",
+      "blurred": true,
+      "label": "Checking"
+    },
+    "coverOverlay": {
+      "series": "FLINCH FILE No. 2",
+      "hook": "Somewhere between fine and bad",
+      "subhook": "Guess the number. Then open the app, once →"
+    },
+    "bodySlides": [
+      {
+        "type": "card",
+        "term": "THE FOG NUMBER",
+        "definition": "The balance you can feel but can't say out loud."
+      },
+      {
+        "type": "statement",
+        "headline": "The fog is the fear doing its job.",
+        "sub": "It keeps you from looking at all."
+      },
+      {
+        "type": "statement",
+        "headline": "The gap is your flinch, measured.",
+        "sub": "From your guess to the real number."
+      },
+      {
+        "type": "statement",
+        "headline": "Say your guess. Then open the app, once.",
+        "sub": "One look. Nothing more."
+      },
+      {
+        "type": "statement",
+        "headline": "You never had a math problem.",
+        "sub": "You had a look-away problem."
+      }
+    ],
+    "endSlide": {
+      "question": "How far off were you? Twenty? A hundred?",
+      "repLine": "Dropping the gap counts as your first rep."
+    },
+    "day": 2
+  },
+  {
+    "slug": "budget-autopsy",
+    "coverScene": "balance",
+    "coverConfig": {
+      "greeting": "Day 8 of your budget",
+      "amount": "-$32.00",
+      "blurred": false,
+      "label": "One slip"
+    },
+    "coverOverlay": {
+      "series": "AUTOPSY No. 1",
+      "hook": "It survived a week. Then a thought.",
+      "subhook": "The real cause of death is on slide 4 →"
+    },
+    "bodySlides": [
+      {
+        "type": "statement",
+        "headline": "Your budget makes it eight days. Every time.",
+        "sub": "Days one through seven, you are fine. Day eight, one slip."
+      },
+      {
+        "type": "statement",
+        "headline": "The slip is not what kills it.",
+        "sub": "One bad day does not end a month. You know this."
+      },
+      {
+        "type": "card",
+        "term": "THE AFTER-THOUGHT",
+        "definition": "The moment after a slip when you decide the month is ruined now."
+      },
+      {
+        "type": "statement",
+        "headline": "So you stop looking until the 1st.",
+        "sub": "Three clean weeks die for one bad day."
+      },
+      {
+        "type": "statement",
+        "headline": "After a slip, your month restarts tomorrow morning.",
+        "sub": "Not the 1st. Tomorrow."
+      }
+    ],
+    "endSlide": {
+      "question": "What day does yours usually die?",
+      "repLine": "Drop the number. No judgment."
+    },
+    "day": 3
+  },
+  {
+    "slug": "shame-archive",
+    "coverScene": "list",
+    "coverConfig": {
+      "appTitle": "Archive",
+      "badge": 247,
+      "tabLabel": "Mail",
+      "rows": [
+        {
+          "left": "Your bank",
+          "right": "2h",
+          "muted": true
+        },
+        {
+          "left": "Your bank",
+          "right": "9h",
+          "muted": true
+        },
+        {
+          "left": "Your bank",
+          "right": "Yesterday",
+          "muted": true
+        },
+        {
+          "left": "Your bank",
+          "right": "Mon",
+          "muted": true
+        },
+        {
+          "left": "Your bank",
+          "right": "Mon",
+          "muted": true
+        },
+        {
+          "left": "Your bank",
+          "right": "Sun",
+          "muted": true
+        }
+      ]
+    },
+    "coverOverlay": {
+      "series": "FLINCH FILE No. 3",
+      "hook": "The folder you feed but never open.",
+      "subhook": "The pile isn't proof. Swipe to count it →"
+    },
+    "bodySlides": [
+      {
+        "type": "statement",
+        "headline": "You built a folder for the fear.",
+        "sub": "Every bank alert lands there, unread."
+      },
+      {
+        "type": "statement",
+        "headline": "The pile keeps growing.",
+        "sub": "And it starts to feel like proof."
+      },
+      {
+        "type": "card",
+        "term": "THE ARCHIVE",
+        "definition": "A pile is not a number. It's dread with a badge."
+      },
+      {
+        "type": "statement",
+        "headline": "So do one thing. Count them.",
+        "sub": "Don't open any."
+      },
+      {
+        "type": "statement",
+        "headline": "Dread says hundreds.",
+        "sub": "The real number is smaller than the feeling."
+      }
+    ],
+    "endSlide": {
+      "question": "Count yours tonight. What's the real number?",
+      "repLine": "Counting them counts as your first rep."
+    },
+    "day": 4
+  },
+  {
+    "slug": "first-look",
+    "coverScene": "balance",
+    "coverConfig": {
+      "greeting": "Available balance",
+      "amount": "$186.32",
+      "blurred": false,
+      "label": "Checking"
+    },
+    "coverOverlay": {
+      "series": "2-MINUTE REP No. 1",
+      "hook": "Tonight, you look. You fix nothing.",
+      "subhook": "The whole plan fits one swipe →"
+    },
+    "bodySlides": [
+      {
+        "type": "statement",
+        "headline": "Tonight, you only look",
+        "sub": "No moving cash. No math. No new plan."
+      },
+      {
+        "type": "statement",
+        "headline": "Your brain braces for a fight",
+        "sub": "You wait for the number to hurt."
+      },
+      {
+        "type": "card",
+        "term": "THE REP",
+        "definition": "You look, no fight comes, and the fear gets smaller."
+      },
+      {
+        "type": "statement",
+        "headline": "Look, breathe, close the app",
+        "sub": "Next time, the door is lighter."
+      },
+      {
+        "type": "statement",
+        "headline": "You never had a math problem",
+        "sub": "You had a door you stopped opening."
+      }
+    ],
+    "endSlide": {
+      "question": "How many days since your last look?",
+      "repLine": "Opening the app tonight is your first rep."
+    },
+    "day": 5
+  },
+  {
+    "slug": "savings-name",
+    "coverScene": "balance",
+    "coverConfig": {
+      "greeting": "Available balance",
+      "amount": "$0.00",
+      "blurred": false,
+      "label": "Savings"
+    },
+    "coverOverlay": {
+      "series": "AUTOPSY No. 2",
+      "hook": "The account name that keeps it empty",
+      "subhook": "Cause of death is one word long. Swipe."
+    },
+    "bodySlides": [
+      {
+        "type": "statement",
+        "headline": "Your savings account is named \"Savings.\"",
+        "sub": "That is why it stays empty."
+      },
+      {
+        "type": "statement",
+        "headline": "\"Savings\" is a word with no story.",
+        "sub": "So pulling money out costs you nothing."
+      },
+      {
+        "type": "card",
+        "term": "THE NAME WITH NO STORY",
+        "definition": "A label so blank your brain feels no loss when you take from it."
+      },
+      {
+        "type": "statement",
+        "headline": "Rename it. \"March rent buffer.\" \"Leave any job fund.\"",
+        "sub": "Same money. Now taking from it means taking March's rent. Your brain feels that."
+      },
+      {
+        "type": "statement",
+        "headline": "You never had a math problem.",
+        "sub": "You had a name problem."
+      }
+    ],
+    "endSlide": {
+      "question": "Still says \"Savings\"? Drop the new name below.",
+      "repLine": "Naming it counts as your first rep."
+    },
+    "day": 6
+  },
+  {
+    "slug": "muted-messenger",
+    "coverScene": "settings",
+    "coverConfig": {
+      "title": "Notifications",
+      "rows": [
+        {
+          "label": "BANK Alerts",
+          "on": false
+        },
+        {
+          "label": "Deposits",
+          "on": false
+        },
+        {
+          "label": "Low balance",
+          "on": false
+        }
+      ]
+    },
+    "coverOverlay": {
+      "series": "FLINCH FILE No. 4",
+      "hook": "Do Not Disturb, but for your money",
+      "subhook": "You didn't mute the bank. You muted the news. Swipe."
+    },
+    "bodySlides": [
+      {
+        "type": "statement",
+        "headline": "You didn't mute your bank. You muted the messenger.",
+        "sub": "The money keeps moving. You stopped hearing about it."
+      },
+      {
+        "type": "statement",
+        "headline": "Your phone buzzes. Your chest gets tight.",
+        "sub": "So you shut the alerts off and call it self-care."
+      },
+      {
+        "type": "card",
+        "term": "THE 1AM CHECK",
+        "definition": "You silenced the buzz, but the flinch stays. So you check at 1am, braced for bad news."
+      },
+      {
+        "type": "statement",
+        "headline": "Turn one alert back on. Deposits only.",
+        "sub": "Now the only time your bank taps you, it's good news."
+      },
+      {
+        "type": "statement",
+        "headline": "You're not doing math. You're teaching your body the buzz is safe.",
+        "sub": "Same phone. New feeling."
+      }
+    ],
+    "endSlide": {
+      "question": "How long has yours been muted? Weeks? Years?",
+      "repLine": "Drop it below. No judgment. Saving this counts as your first rep."
+    },
+    "day": 7
+  },
+  {
+    "slug": "friday-reversal",
+    "coverScene": "balance",
+    "coverConfig": {
+      "greeting": "Available balance",
+      "amount": "$41.90",
+      "blurred": false,
+      "label": "Checking"
+    },
+    "coverOverlay": {
+      "series": "AUTOPSY No. 3",
+      "hook": "The round trip nobody admits to",
+      "subhook": "See how it sneaks back by Friday →"
+    },
+    "bodySlides": [
+      {
+        "type": "statement",
+        "headline": "You save it Monday. You take it back by Friday.",
+        "sub": "Same money, home before the weekend."
+      },
+      {
+        "type": "statement",
+        "headline": "The money in savings still feels like yours.",
+        "sub": "So when checking gets thin, you bring it home."
+      },
+      {
+        "type": "card",
+        "term": "THE MID-WEEK TRANSFER",
+        "definition": "noun. a save timed so badly you pull it back by Friday. The plan holds. The timing is what dies."
+      },
+      {
+        "type": "statement",
+        "headline": "Move the transfer to payday morning.",
+        "sub": "Before the money ever lands in your hands."
+      },
+      {
+        "type": "statement",
+        "headline": "Money you never met is money you don't mourn.",
+        "sub": "You can't reach for what never arrived."
+      }
+    ],
+    "endSlide": {
+      "question": "What day does yours crawl back?",
+      "repLine": "Naming the day is your first rep."
+    },
+    "day": 8
+  },
+  {
+    "slug": "midnight-card",
+    "coverScene": "checkout",
+    "coverConfig": {
+      "item": "1 item in cart",
+      "price": "$48.00",
+      "cardLast4": "4242",
+      "time": "12:03"
+    },
+    "coverOverlay": {
+      "series": "2-MINUTE REP No. 2",
+      "hook": "The cart is faster than the doubt",
+      "subhook": "One card is why the wanting always wins →"
+    },
+    "bodySlides": [
+      {
+        "type": "statement",
+        "headline": "There's one site that gets you at midnight",
+        "sub": "You know which one."
+      },
+      {
+        "type": "statement",
+        "headline": "It's not the wanting that costs you. It's the speed",
+        "sub": "The want is fine. The two taps are the problem."
+      },
+      {
+        "type": "card",
+        "term": "THE TWO-TAP TRAP",
+        "definition": "Your saved card makes the buy end before the wanting can pass."
+      },
+      {
+        "type": "statement",
+        "headline": "Open the site. Settings. Payment. Delete the saved card",
+        "sub": "You can still buy. It takes ninety more seconds now."
+      },
+      {
+        "type": "statement",
+        "headline": "Most midnight wants don't live for ninety seconds",
+        "sub": "Give the want time and it walks itself out."
+      }
+    ],
+    "endSlide": {
+      "question": "Which site is it? First letter only.",
+      "repLine": "Deleting that card counts as your first rep."
+    },
+    "day": 9
+  },
+  {
+    "slug": "budget-job",
+    "coverScene": "notification",
+    "coverConfig": {
+      "time": "1:04",
+      "cards": [
+        {
+          "app": "BUDGET",
+          "title": "We miss you",
+          "body": "You have not logged a purchase in 34 days."
+        }
+      ]
+    },
+    "coverOverlay": {
+      "series": "AUTOPSY No. 4",
+      "hook": "Your budget wanted a paycheck",
+      "subhook": "Cause of death, swipe to read it →"
+    },
+    "bodySlides": [
+      {
+        "type": "statement",
+        "headline": "You stopped showing up",
+        "sub": "Not because you are lazy."
+      },
+      {
+        "type": "statement",
+        "headline": "Your budget was a job",
+        "sub": "You hired yourself, and forgot to pay."
+      },
+      {
+        "type": "card",
+        "term": "THE UNPAID JOB",
+        "definition": "Twenty-three categories. One for coffee. One for gas. Night shifts, no days off."
+      },
+      {
+        "type": "statement",
+        "headline": "Try three numbers",
+        "sub": "Bills. Life. Keep."
+      },
+      {
+        "type": "statement",
+        "headline": "Small enough to hold in your head",
+        "sub": "Right there in the checkout line."
+      }
+    ],
+    "endSlide": {
+      "question": "How many categories did yours have?",
+      "repLine": "Drop the number. No judgment counts as a rep."
+    },
+    "day": 10
+  },
+  {
+    "slug": "day17-ambush",
+    "coverScene": "notification",
+    "coverConfig": {
+      "time": "7:17",
+      "cards": [
+        {
+          "app": "CARD CO",
+          "title": "Payment due",
+          "body": "Your bill is due in 2 days."
+        }
+      ]
+    },
+    "coverOverlay": {
+      "series": "2-MINUTE REP No. 3",
+      "hook": "The mid-month jump scare is optional.",
+      "subhook": "The 2-minute fix is one swipe away →"
+    },
+    "bodySlides": [
+      {
+        "type": "card",
+        "term": "THE MID-MONTH AMBUSH",
+        "definition": "A bill that lands before payday, then acts like it is your fault."
+      },
+      {
+        "type": "statement",
+        "headline": "No one tells you this: due dates move.",
+        "sub": "You treat the date like it is set in stone."
+      },
+      {
+        "type": "statement",
+        "headline": "Line the due date up with payday.",
+        "sub": "Same bill. Same amount. Now it lands when the money does."
+      },
+      {
+        "type": "statement",
+        "headline": "One bill. Find \"change due date.\"",
+        "sub": "Pick the day after payday. Two minutes, done."
+      },
+      {
+        "type": "statement",
+        "headline": "You don't need more money.",
+        "sub": "You need a calendar that is on your side."
+      }
+    ],
+    "endSlide": {
+      "question": "What day does yours hit? Drop the number.",
+      "repLine": "Changing one date counts as your first rep."
+    },
+    "day": 11
+  },
+  {
+    "slug": "identity-sub",
+    "coverScene": "settings",
+    "coverConfig": {
+      "title": "Subscriptions",
+      "rows": [
+        {
+          "label": "Gym membership",
+          "on": true
+        },
+        {
+          "label": "Online course",
+          "on": true
+        },
+        {
+          "label": "Language app",
+          "on": true
+        }
+      ]
+    },
+    "coverOverlay": {
+      "series": "2-MINUTE REP No. 4",
+      "hook": "You pay to stay someone you're not",
+      "subhook": "One tap ends it. Swipe for the rep →"
+    },
+    "bodySlides": [
+      {
+        "type": "statement",
+        "headline": "You keep paying for the gym you never OPEN",
+        "sub": "Same for the course. Same for the app."
+      },
+      {
+        "type": "statement",
+        "headline": "You don't pay for the gym. You pay for the STORY",
+        "sub": "The story that you might go someday."
+      },
+      {
+        "type": "card",
+        "term": "THE GUILT-KEEP",
+        "definition": "A charge you leave on. Canceling feels like giving up on who you meant to be."
+      },
+      {
+        "type": "statement",
+        "headline": "Open your phone. Find the one you keep out of guilt. Hit CANCEL",
+        "sub": "Want it back someday? Two taps."
+      },
+      {
+        "type": "statement",
+        "headline": "That flinch is not the money. It's the person you were going to be, LEAVING",
+        "sub": "Let them go."
+      }
+    ],
+    "endSlide": {
+      "question": "How many months have you paid without opening it?",
+      "repLine": "Drop the number. No judgment. That's your rep."
+    },
+    "day": 12
+  }
+]
