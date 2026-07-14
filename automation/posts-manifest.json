@@ -1,0 +1,67 @@
+{
+  "launch_date": "2026-07-20",
+  "timezone": "America/Toronto",
+  "note": "Fixed 7-slide carousels. 'launch_date' is day 1; --today publishes launch_date + N, using 'timezone' for the date. A post only publishes when its 'status' is 'ready'. The image folder name must equal the slug. Timing is set by the cron in .github/workflows/daily-post.yml, NOT by this file.",
+  "posts": [
+    {
+      "day": 1, "slug": "after-check", "slides": 7, "status": "ready",
+      "caption": "You check the number after you buy, never before. There's a reason — and a two-minute fix.\n\nSave this — looking counts as the first rep.\n\n#moneyanxiety #financialtherapy #moneypsychology #moneymindset #personalfinance",
+      "firstComment": "How long since you looked before buying? Days, weeks, years — drop it. No judgment."
+    },
+    {
+      "day": 2, "slug": "fog-number", "slides": 7, "status": "ready",
+      "caption": "You don't know your balance. You know a vibe. Let's measure the gap.\n\nSave this — looking counts as the first rep.\n\n#moneyanxiety #financialtherapy #moneypsychology #moneymindset #personalfinance",
+      "firstComment": "How far off were you? Twenty? A hundred? Drop the gap. No judgment."
+    },
+    {
+      "day": 3, "slug": "budget-autopsy", "slides": 7, "status": "ready",
+      "caption": "Your budget didn't fail because you're undisciplined. It was built to die. Here's the autopsy.\n\nSave this for the next time yours flatlines.\n\n#moneyanxiety #financialtherapy #moneypsychology #moneymindset #personalfinance",
+      "firstComment": "What day does yours usually die? Drop the number. No judgment."
+    },
+    {
+      "day": 4, "slug": "shame-archive", "slides": 7, "status": "ready",
+      "caption": "The unread bank emails aren't laziness. They're a shame archive. Your brain is the archivist.\n\nSave this — counting is the whole assignment.\n\n#moneyanxiety #financialtherapy #moneypsychology #moneymindset #personalfinance",
+      "firstComment": "Count yours tonight. Then drop the number here. No judgment."
+    },
+    {
+      "day": 5, "slug": "first-look", "slides": 7, "status": "ready",
+      "caption": "Open the app. Look at one number. Close it. That's the whole exercise. I'll go first.\n\nSave this — it's your first rep.\n\n#moneyanxiety #financialtherapy #moneypsychology #moneymindset #personalfinance",
+      "firstComment": "How many days since your last look? Drop the number. No judgment."
+    },
+    {
+      "day": 6, "slug": "savings-name", "slides": 7, "status": "ready",
+      "caption": "Your savings account is named 'Savings.' That's exactly why it's empty.\n\nSave this, then go rename yours.\n\n#moneyanxiety #financialtherapy #moneypsychology #moneymindset #personalfinance",
+      "firstComment": "Go look at yours. If it still says \"Savings,\" drop the new name here. No judgment."
+    },
+    {
+      "day": 7, "slug": "muted-messenger", "slides": 7, "status": "ready",
+      "caption": "You muted your bank and called it self-care. Let's turn one thing back on.\n\nSave this — deposits-only is the loophole.\n\n#moneyanxiety #financialtherapy #moneypsychology #moneymindset #personalfinance",
+      "firstComment": "How long has yours been muted? Weeks? Years? Drop it. No judgment."
+    },
+    {
+      "day": 8, "slug": "friday-reversal", "slides": 7, "status": "ready",
+      "caption": "You set up auto-savings, then moved the money back by Friday. This loop has an off-switch.\n\nSave this for payday morning.\n\n#moneyanxiety #financialtherapy #moneypsychology #moneymindset #personalfinance",
+      "firstComment": "So — what day does yours crawl back? Drop the day. No judgment."
+    },
+    {
+      "day": 9, "slug": "midnight-card", "slides": 7, "status": "ready",
+      "caption": "There's one site that gets you at midnight. Let's make buying take ninety seconds longer.\n\nSave this — deletion, not discipline.\n\n#moneyanxiety #financialtherapy #moneypsychology #moneymindset #personalfinance",
+      "firstComment": "Which site is it? First letter only. No judgment here."
+    },
+    {
+      "day": 10, "slug": "budget-job", "slides": 7, "status": "ready",
+      "caption": "Your budget had 23 categories. You built yourself a job, then quit it. Cut it to three.\n\nSave this — bills, life, keep.\n\n#moneyanxiety #financialtherapy #moneypsychology #moneymindset #personalfinance",
+      "firstComment": "How many categories did yours have? Drop the number. No judgment."
+    },
+    {
+      "day": 11, "slug": "day17-ambush", "slides": 7, "status": "ready",
+      "caption": "The mid-month bill ambush isn't bad luck. Move one due date and it stops.\n\nSave this before day 17.\n\n#moneyanxiety #financialtherapy #moneypsychology #moneymindset #personalfinance",
+      "firstComment": "What day does yours hit — drop the number. No judgment."
+    },
+    {
+      "day": 12, "slug": "identity-sub", "slides": 7, "status": "ready",
+      "caption": "You're paying rent on the person you were going to become. Let's cancel it together.\n\nSave this — stop paying an old identity.\n\n#moneyanxiety #financialtherapy #moneypsychology #moneymindset #personalfinance",
+      "firstComment": "How many months have you paid without opening it? Drop the number. No judgment."
+    }
+  ]
+}

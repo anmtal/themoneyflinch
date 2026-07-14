@@ -1,0 +1,42 @@
+name: Daily Money Flinch post
+
+# Cron is in UTC and is best-effort (GitHub may delay it 5-30 min). For the actual
+# launch, use "Run workflow" below rather than trusting the exact minute.
+# 23:00 UTC = 7pm Eastern in summer (EDT). 'today' is computed in the manifest
+# timezone inside publisher.py, so the correct day posts regardless of cron hour.
+on:
+  schedule:
+    - cron: "0 23 * * *"
+  workflow_dispatch:
+    inputs:
+      slug:
+        description: "Post a specific slug now (e.g. after-check). Leave blank to post today's scheduled post."
+        required: false
+        default: ""
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Publish
+        env:
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          IMAGE_BASE_URL: ${{ secrets.IMAGE_BASE_URL }}
+          LAUNCH_DATE: ${{ vars.LAUNCH_DATE }}
+          GRAPH_VERSION: ${{ vars.GRAPH_VERSION }}
+        run: |
+          if [ -n "${{ github.event.inputs.slug }}" ]; then
+            python automation/publisher.py --slug "${{ github.event.inputs.slug }}"
+          else
+            python automation/publisher.py --today
+          fi

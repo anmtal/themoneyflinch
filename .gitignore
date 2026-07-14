@@ -1,0 +1,9 @@
+# NEVER commit secrets. The access token belongs only in GitHub repo Secrets.
+.env
+*.env
+!.env.example
+
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
