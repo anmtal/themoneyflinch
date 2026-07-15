@@ -1,0 +1,32 @@
+name: Cleanup posted content
+
+# Every 2 days, delete already-posted reel videos from the repo (Instagram keeps
+# its own copy after publishing, so the GitHub mp4 is dead weight). Keeps the repo
+# lean. Does NOT touch your Instagram — only the source files on GitHub.
+on:
+  schedule:
+    - cron: "0 8 */2 * *"     # 08:00 UTC every 2nd day
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GH_PAT }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Remove posted reel videos
+        run: python automation/cleanup_content.py
+      - name: Commit removals
+        run: |
+          git config user.name "flinch-bot"
+          git config user.email "flinch-bot@users.noreply.github.com"
+          git add -A
+          git commit -m "chore: remove posted reel videos from repo" || echo "nothing to remove"
+          git push
