@@ -164,18 +164,69 @@ def do_check(manifest):
           f"(id {ig_id}), media_count={res.get('media_count')}")
 
 
+def video_url(base_url, post):
+    return f"{base_url.rstrip('/')}/reels/{post['slug']}.mp4"
+
+
+def _post_comment(version, media_id, message, token):
+    try:
+        graph_post(version, f"{media_id}/comments",
+                   {"message": message, "access_token": token}, token)
+        print("  posted first comment")
+    except RuntimeError as e:
+        print(f"  (comment skipped: {e})")
+
+
 def publish(manifest, post, dry_run):
     version = os.environ.get("GRAPH_VERSION", "v23.0")
     base_url = os.environ.get("IMAGE_BASE_URL", "")
     if not base_url and not dry_run:
         sys.exit("Missing required env var: IMAGE_BASE_URL")
+    ptype = post.get("type", "carousel")
 
-    urls = slide_urls(base_url, post) if base_url else \
-        [f"<IMAGE_BASE_URL>/posts/{post['slug']}/slide-{i}.jpg" for i in range(1, post["slides"] + 1)]
-
-    print(f"\n=== {post['slug']}  @ {post.get('publish_at','?')}  ({post['slides']} slides) ===")
+    print(f"\n=== {post['slug']}  [{ptype}]  @ {post.get('publish_at','?')} ===")
     print("Caption:\n" + post["caption"])
     print("\nFirst comment: " + post["firstComment"])
+
+    # ---------- REEL ----------
+    if ptype == "reel":
+        url = video_url(base_url, post) if base_url else f"<IMAGE_BASE_URL>/reels/{post['slug']}.mp4"
+        problems = 0
+        print("\nVideo:")
+        if base_url:
+            ok, ctype = check_url(url)
+            cl = ctype.lower()
+            if not ok:
+                problems += 1; print("  " + url + "  !! NOT REACHABLE")
+            elif not any(x in cl for x in ("mp4", "video", "octet-stream")):
+                problems += 1; print("  " + url + f"  !! not a video ({ctype})")
+            else:
+                print("  " + url + "  OK")
+        else:
+            print("  " + url)
+        if dry_run:
+            if base_url and problems:
+                sys.exit(f"\n[dry-run] {problems} video problem(s).")
+            print("\n[dry-run] Validated. Nothing posted."); return
+        if problems:
+            sys.exit(f"\n{problems} video problem(s). Aborting.")
+        ig_id = env("IG_USER_ID"); token = env("IG_ACCESS_TOKEN")
+        res = graph_post(version, f"{ig_id}/media",
+                         {"media_type": "REELS", "video_url": url, "caption": post["caption"],
+                          "share_to_feed": "true", "access_token": token}, token)
+        cid = res["id"]
+        print(f"  reel container {cid} — processing video (can take a minute)...")
+        wait_finished(version, cid, token, tries=60, delay=6)   # video processing is slower
+        published = graph_post(version, f"{ig_id}/media_publish",
+                               {"creation_id": cid, "access_token": token}, token)
+        media_id = published["id"]
+        print(f"  PUBLISHED reel {media_id}")
+        _post_comment(version, media_id, post["firstComment"], token)
+        return
+
+    # ---------- CAROUSEL (default) ----------
+    urls = slide_urls(base_url, post) if base_url else \
+        [f"<IMAGE_BASE_URL>/posts/{post['slug']}/slide-{i}.jpg" for i in range(1, post["slides"] + 1)]
     problems = 0
     print("\nSlides:")
     for u in urls:
@@ -223,13 +274,7 @@ def publish(manifest, post, dry_run):
                            {"creation_id": cid, "access_token": token}, token)
     media_id = published["id"]
     print(f"  PUBLISHED media {media_id}")
-
-    try:
-        graph_post(version, f"{media_id}/comments",
-                   {"message": post["firstComment"], "access_token": token}, token)
-        print("  posted first comment")
-    except RuntimeError as e:
-        print(f"  (comment skipped: {e})")
+    _post_comment(version, media_id, post["firstComment"], token)
 
 
 def main():
