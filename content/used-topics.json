@@ -227,5 +227,127 @@
       "term": null,
       "topic": "star the one recurring charge you forgot you agreed to"
     }
+  ],
+  "used_lists": [
+    {
+      "slug": "list-money-habits-quietly-broke",
+      "hook": "5 money habits quietly keeping you broke"
+    },
+    {
+      "slug": "list-tiny-ways-avoid-own-money",
+      "hook": "5 tiny ways you avoid your own money"
+    },
+    {
+      "slug": "list-money-moves-actually-fear",
+      "hook": "5 money moves that are actually fear"
+    },
+    {
+      "slug": "list-brain-hides-money-from-you",
+      "hook": "5 ways your brain HIDES money from you"
+    },
+    {
+      "slug": "list-money-habits-feel-safe",
+      "hook": "5 money habits that feel safe but aren't"
+    },
+    {
+      "slug": "list-small-money-things-putting-off",
+      "hook": "5 small money things you keep putting off"
+    },
+    {
+      "slug": "list-flinch-at-own-money",
+      "hook": "5 ways you flinch at your own money"
+    },
+    {
+      "slug": "list-money-habits-old-fear",
+      "hook": "5 money habits that are really old fear"
+    },
+    {
+      "slug": "list-signs-avoid-not-lazy",
+      "hook": "5 signs you avoid your money (not lazy)"
+    },
+    {
+      "slug": "list-budget-doomed-day-one",
+      "hook": "5 signs your budget was doomed on day one"
+    },
+    {
+      "slug": "list-check-balance-one-eye",
+      "hook": "5 tells you check your balance with one eye"
+    },
+    {
+      "slug": "list-not-bad-just-scared",
+      "hook": "5 signs you're not bad with money, only scared"
+    },
+    {
+      "slug": "list-spend-to-feel-okay",
+      "hook": "5 signs you spend to feel okay"
+    },
+    {
+      "slug": "list-app-you-wont-open",
+      "hook": "5 signs the app you won't open is winning"
+    },
+    {
+      "slug": "list-learned-money-scared-house",
+      "hook": "5 tells you learned money from a scared house"
+    },
+    {
+      "slug": "list-deal-with-it-later-feeling",
+      "hook": "5 signs \"I'll deal with it later\" is a feeling"
+    },
+    {
+      "slug": "list-avoidance-looks-like-busy",
+      "hook": "5 signs your money avoidance looks like being busy"
+    },
+    {
+      "slug": "list-money-lies-brain-1am",
+      "hook": "5 money lies your brain tells at 1am"
+    },
+    {
+      "slug": "list-money-feelings-nobody-warns",
+      "hook": "5 money feelings nobody warns you about"
+    },
+    {
+      "slug": "list-brain-when-bill-arrives",
+      "hook": "5 things your brain does when the bill arrives"
+    },
+    {
+      "slug": "list-thoughts-feel-true-arent",
+      "hook": "5 money thoughts that feel true but aren't"
+    },
+    {
+      "slug": "list-stories-avoid-checking",
+      "hook": "5 stories you tell yourself to avoid checking"
+    },
+    {
+      "slug": "list-fears-shrink-when-look",
+      "hook": "5 money fears that shrink when you look"
+    },
+    {
+      "slug": "list-confuses-with-being-broke",
+      "hook": "5 things your brain confuses with being broke"
+    },
+    {
+      "slug": "list-two-minute-calm-nervous-system",
+      "hook": "5 two-minute money moves that calm you"
+    },
+    {
+      "slug": "list-gentle-moves-when-behind",
+      "hook": "5 gentle money moves for when you're behind"
+    },
+    {
+      "slug": "list-tiny-wins-lying-down",
+      "hook": "5 tiny money wins you can do lying down"
+    },
+    {
+      "slug": "list-moves-less-than-coffee",
+      "hook": "5 money moves that take less than a coffee"
+    },
+    {
+      "slug": "list-moves-cant-cope",
+      "hook": "5 money moves for the days you can't cope"
+    },
+    {
+      "slug": "list-dont-feel-like-homework",
+      "hook": "5 money moves that don't feel like homework"
+    }
   ]
 }
