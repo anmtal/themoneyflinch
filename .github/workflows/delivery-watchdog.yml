@@ -1,0 +1,28 @@
+name: Delivery watchdog
+
+# Answers the one question no other workflow asks: did anything actually reach
+# Instagram? The buffer alert only measures how much content is left, so a full
+# queue with a dead token looks perfectly healthy to it. Both silent misses so far
+# looked exactly like that.
+on:
+  schedule:
+    - cron: "13 */6 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Alert if nothing has posted in 26h
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: python automation/check_delivery.py

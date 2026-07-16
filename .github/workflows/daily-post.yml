@@ -1,11 +1,15 @@
 name: Money Flinch scheduler
 
-# Runs every 30 min and posts whatever is due (2 posts/day per the manifest's
-# publish_at times). Posting whatever-is-due self-heals missed runs, and the
-# idempotency guard prevents double-posting. Public repo => free Actions minutes.
+# Posts whatever is due (2/day at 12:00 and 20:00 Eastern per the manifest).
+# The precise trigger is cron-job.org calling workflow_dispatch on the minute;
+# this cron is only a self-healing backup, since GitHub's scheduler runs late.
+#
+# The backup cron is deliberately OFF the hour. America/Toronto is a whole-hour
+# offset, so 12:00/20:00 local land exactly on :00 UTC — a "*/30" cron would fire
+# the same minute as the external trigger, every single time, at both post times.
 on:
   schedule:
-    - cron: "*/30 * * * *"
+    - cron: "7,37 * * * *"
   workflow_dispatch:
     inputs:
       mode:
@@ -16,9 +20,8 @@ on:
 permissions:
   contents: write
 
-# Only ever ONE publish run at a time. The external precise trigger (12:00/20:00)
-# and GitHub's own */30 backup cron can fire at the same moment; without this they
-# could both pick the same due post and publish it twice.
+# Only ever ONE publish run at a time. cancel-in-progress must stay false: killing
+# a run mid-publish can leave a reel live but unrecorded, which re-posts later.
 concurrency:
   group: money-flinch-publish
   cancel-in-progress: false
@@ -27,11 +30,22 @@ jobs:
   run:
     runs-on: ubuntu-latest
     steps:
+      # ref: pins to the BRANCH HEAD, not the trigger SHA. A run queued behind the
+      # concurrency guard was triggered before the run ahead of it recorded its post,
+      # so a default checkout would hand it a stale posted.json and it would publish
+      # the same reel again.
       - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
       - run: pip install requests
+      - name: Re-read the posted log at the last possible moment
+        run: |
+          git fetch origin ${{ github.event.repository.default_branch }} --quiet
+          git checkout FETCH_HEAD -- content/posted.json content/failed.json 2>/dev/null || true
+          echo "posted:"; cat content/posted.json
       - name: Publish due / run mode
         env:
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
@@ -47,16 +61,8 @@ jobs:
           else
             python automation/publisher.py --slug "$MODE"
           fi
+      # always(): a run that failed AFTER publishing still must record the post, or
+      # it re-posts on the next cron. This step is the thing that keeps that true.
       - name: Record what was posted (permanent log)
         if: always()
-        run: |
-          git add content/posted.json 2>/dev/null || true
-          if ! git diff --cached --quiet; then
-            git config user.name "flinch-bot"
-            git config user.email "flinch-bot@users.noreply.github.com"
-            git commit -m "chore: record posted content"
-            # retry across races with other pushes — this log MUST land, or a
-            # later run could re-post the same content
-            git push || (git pull --rebase --autostash && git push) \
-                     || (sleep 10 && git pull --rebase --autostash && git push)
-          fi
+        run: python automation/commit_logs.py ${{ github.event.repository.default_branch }}

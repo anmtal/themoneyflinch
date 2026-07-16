@@ -3,6 +3,10 @@
 *.env
 !.env.example
 
+# half-written logs from an interrupted atomic write — never commit these,
+# a truncated posted.json halts the publisher
+*.json.tmp
+
 __pycache__/
 *.pyc
 .DS_Store

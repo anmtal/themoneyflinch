@@ -27,6 +27,14 @@ jobs:
         run: |
           git config user.name "flinch-bot"
           git config user.email "flinch-bot@users.noreply.github.com"
-          git add -A
-          git commit -m "chore: remove posted reel videos from repo" || echo "nothing to remove"
-          git push
+          # Scope the add to the videos this job is allowed to touch. `git add -A`
+          # would sweep up anything else in the tree — including a half-written
+          # .tmp log — and commit it to main.
+          git add content/reels
+          if git diff --cached --quiet; then
+            echo "nothing to remove"; exit 0
+          fi
+          git commit -m "chore: remove posted reel videos from repo"
+          # A publish run may have pushed a log while we worked. Rebasing is safe
+          # here (we only touch mp4 deletions, the publisher never touches those).
+          git push || (git pull --rebase --autostash && git push)

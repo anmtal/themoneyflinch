@@ -2,7 +2,7 @@ name: Content buffer alert
 
 # Twice a week (Mon + Thu), checks how much unposted content is left. If under ~9
 # days, opens a GitHub issue (which emails you) so you have comfortable lead time
-# to refill. Skips if an alert issue is already open, so it never spams. No PC needed.
+# to refill. No PC needed.
 on:
   schedule:
     - cron: "0 13 * * 1"     # Mondays 13:00 UTC
@@ -23,17 +23,28 @@ jobs:
           python-version: "3.12"
       - id: buf
         run: python automation/check_buffer.py
-      - name: Open an issue if the buffer is low (and none open yet)
+      - name: Open or update the low-buffer issue
         if: ${{ fromJSON(steps.buf.outputs.days_left) < 9 }}
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          DAYS: ${{ steps.buf.outputs.days_left }}
+          LEFT: ${{ steps.buf.outputs.unposted }}
+          REPO: ${{ github.repository }}
         run: |
-          open_count=$(gh issue list --repo "${{ github.repository }}" --state open \
-            --search "Money Flinch content is low in:title" --json number -q 'length')
-          if [ "$open_count" -gt 0 ]; then
-            echo "An alert issue is already open — skipping to avoid spam."
-            exit 0
+          set -euo pipefail
+          TITLE="Money Flinch content is low"
+          BODY="The posting queue has **$LEFT posts left (~$DAYS days)**. Open Claude and say \"refill\" to generate the next verified batch."
+          if awk -v d="$DAYS" 'BEGIN{exit !(d < 2.5)}'; then
+            BODY="**The queue is about to run dry — ~$DAYS days ($LEFT posts) left.** Refill now or the page goes quiet."
           fi
-          gh issue create --repo "${{ github.repository }}" \
-            --title "Money Flinch content is low (~${{ steps.buf.outputs.days_left }} days left)" \
-            --body "The posting queue has ${{ steps.buf.outputs.unposted }} posts left (~${{ steps.buf.outputs.days_left }} days of content). Open Claude and say \"refill\" to generate the next verified batch. Close this issue once you've refilled."
+          NUM=$(gh issue list --repo "$REPO" --state open --search "$TITLE in:title" \
+                  --json number -q '.[0].number // empty')
+          if [ -n "$NUM" ]; then
+            # Comment instead of skipping. The old version bailed out whenever an
+            # alert issue was already open, which meant one un-closed issue silently
+            # suppressed every future alert — including the queue hitting zero.
+            gh issue comment "$NUM" --repo "$REPO" --body "$BODY"
+            gh issue edit "$NUM" --repo "$REPO" --title "$TITLE (~$DAYS days left)"
+          else
+            gh issue create --repo "$REPO" --title "$TITLE (~$DAYS days left)" --body "$BODY"
+          fi
