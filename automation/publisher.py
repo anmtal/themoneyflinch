@@ -32,7 +32,27 @@ except ImportError:
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 MANIFEST = os.path.join(HERE, "posts-manifest.json")
+# Permanent record of slugs we've published. The scheduler skips these, so
+# deleting a post from Instagram (e.g. to re-post it by hand with trending audio)
+# never causes an automated re-post. Committed back by the workflow after each run.
+POSTED_LOG = os.path.join(os.path.dirname(HERE), "content", "posted.json")
 GRAPH = os.environ.get("IG_GRAPH_BASE", "https://graph.instagram.com")
+
+
+def load_posted():
+    try:
+        with open(POSTED_LOG, encoding="utf-8") as f:
+            return set(json.load(f))
+    except Exception:
+        return set()
+
+
+def mark_posted(slug):
+    posted = load_posted()
+    posted.add(slug)
+    os.makedirs(os.path.dirname(POSTED_LOG), exist_ok=True)
+    with open(POSTED_LOG, "w", encoding="utf-8") as f:
+        json.dump(sorted(posted), f, indent=2)
 
 
 def load_manifest():
@@ -141,14 +161,18 @@ def check_url(url):
 
 # ---- Selection ----
 
-def pick_due(manifest, posted):
-    """Earliest post that is ready, due now, and not already posted."""
+def pick_due(manifest, posted_captions, posted_slugs):
+    """Earliest post that is ready, due, and not already posted (by our log or a live caption)."""
     tz = tzinfo(manifest)
     now = now_local(manifest)
     ready = [p for p in manifest["posts"] if p.get("status") == "ready" and "publish_at" in p]
     ready.sort(key=lambda p: p["publish_at"])
     for p in ready:
-        if due_dt(p, tz) <= now and first_line(p["caption"]) not in posted:
+        if p["slug"] in posted_slugs:
+            continue
+        if first_line(p["caption"]) in posted_captions:
+            continue
+        if due_dt(p, tz) <= now:
             return p
     return None
 
@@ -221,6 +245,7 @@ def publish(manifest, post, dry_run):
                                {"creation_id": cid, "access_token": token}, token)
         media_id = published["id"]
         print(f"  PUBLISHED reel {media_id}")
+        mark_posted(post["slug"])
         _post_comment(version, media_id, post["firstComment"], token)
         return
 
@@ -274,6 +299,7 @@ def publish(manifest, post, dry_run):
                            {"creation_id": cid, "access_token": token}, token)
     media_id = published["id"]
     print(f"  PUBLISHED media {media_id}")
+    mark_posted(post["slug"])
     _post_comment(version, media_id, post["firstComment"], token)
 
 
@@ -303,8 +329,9 @@ def main():
             # can't read the account without a token; show due-by-time only
             tz = tzinfo(manifest)
             now = now_local(manifest)
+            posted_slugs = load_posted()
             due = [p for p in manifest["posts"]
-                   if p.get("status") == "ready" and due_dt(p, tz) <= now]
+                   if p.get("status") == "ready" and p["slug"] not in posted_slugs and due_dt(p, tz) <= now]
             print(f"now={now.isoformat()}  due-by-time: {[p['slug'] for p in due] or 'none'}")
             if due:
                 publish(manifest, sorted(due, key=lambda p: p['publish_at'])[0], True)
@@ -312,8 +339,8 @@ def main():
         ig_id = env("IG_USER_ID")
         token = env("IG_ACCESS_TOKEN")
         version = os.environ.get("GRAPH_VERSION", "v23.0")
-        posted = posted_first_lines(version, ig_id, token)
-        post = pick_due(manifest, posted)
+        posted_captions = posted_first_lines(version, ig_id, token)
+        post = pick_due(manifest, posted_captions, load_posted())
         if post is None:
             print(f"{now_local(manifest).isoformat()} — nothing due to post. Done.")
             return
