@@ -48,5 +48,8 @@ jobs:
             git config user.name "flinch-bot"
             git config user.email "flinch-bot@users.noreply.github.com"
             git commit -m "chore: record posted content"
-            git push
+            # retry across races with other pushes — this log MUST land, or a
+            # later run could re-post the same content
+            git push || (git pull --rebase --autostash && git push) \
+                     || (sleep 10 && git pull --rebase --autostash && git push)
           fi
