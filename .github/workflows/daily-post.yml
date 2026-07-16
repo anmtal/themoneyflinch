@@ -16,6 +16,13 @@ on:
 permissions:
   contents: write
 
+# Only ever ONE publish run at a time. The external precise trigger (12:00/20:00)
+# and GitHub's own */30 backup cron can fire at the same moment; without this they
+# could both pick the same due post and publish it twice.
+concurrency:
+  group: money-flinch-publish
+  cancel-in-progress: false
+
 jobs:
   run:
     runs-on: ubuntu-latest
