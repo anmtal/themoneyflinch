@@ -1,277 +1,115 @@
 {
   "timezone": "America/Toronto",
-  "note": "Fixed 7-slide carousels, 2/day at 12:00 & 20:00 (fired precisely by cron-job.org). Current queue = broad-appeal LIST carousels. Flinch File content stays rendered in content/posts/ but is unscheduled (removed from this list) — re-add to bring it back.",
+  "posts_per_day": 1,
+  "note": "v2 voiced single-idea reels (tools/reel_v2.py). 1/day at 12:00 ET while we test the new format. Old static list reels retired from the queue; posted slugs remain in content/posted.json so nothing re-posts.",
   "posts": [
     {
-      "slug": "list-money-habits-quietly-broke",
-      "slides": 7,
+      "slug": "v2-the-number-in-your-head",
+      "slides": 1,
       "status": "ready",
-      "caption": "You never had a math problem. Save this for the day you're ready to look. #moneyanxiety #financialtherapy #moneypsychology #moneymindset #personalfinance",
-      "firstComment": "The one you skipped over fast is probably the one that's yours. Start there, gently.",
-      "publish_at": "2026-07-15T12:00",
-      "type": "reel"
-    },
-    {
-      "slug": "list-tiny-ways-avoid-own-money",
-      "slides": 7,
-      "status": "ready",
-      "caption": "Not broke. Not looking. There's a difference. Save this for the next time you almost check, then don't. #moneyanxiety #financialtherapy #moneypsychology #moneymindset #personalfinance",
-      "firstComment": "The one that got me writing this: archiving the email before opening it. The math takes ten seconds. The dread takes all week.",
-      "publish_at": "2026-07-16T20:00",
-      "type": "reel"
-    },
-    {
-      "slug": "list-money-moves-actually-fear",
-      "slides": 7,
-      "status": "ready",
-      "caption": "You never had a math problem. Save this for the next time a \"responsible\" choice feels a little too much like relief. #moneyanxiety #financialtherapy #moneypsychology #moneymindset #personalfinance",
-      "firstComment": "The tell is always the same: the move that makes the feeling stop the fastest is rarely the move that helps. Pick one this week and sit in the second of discomfort instead of paying to skip it.",
-      "publish_at": "2026-07-17T12:00",
-      "type": "reel"
-    },
-    {
-      "slug": "list-brain-hides-money-from-you",
-      "slides": 7,
-      "status": "ready",
-      "caption": "You never had a math problem. Save this for the next time your brain tells you not to look. Which number is you? #moneyanxiety #financialtherapy #moneypsychology #moneymindset #personalfinance",
-      "firstComment": "Real talk: the goal is not to feel zero fear about money. It is to look anyway, for four seconds, while it feels bad. That is the whole skill. Start with number 1 today.",
-      "publish_at": "2026-07-17T20:00",
-      "type": "reel"
-    },
-    {
-      "slug": "list-money-habits-feel-safe",
-      "slides": 7,
-      "status": "ready",
-      "caption": "You never had a math problem. Save this for the day the safe habit stops feeling safe. #moneyanxiety #financialtherapy #moneypsychology #moneymindset #personalfinance",
-      "firstComment": "Pick the one that stung. That's the one to start with this week.",
-      "publish_at": "2026-07-18T12:00",
-      "type": "reel"
-    },
-    {
-      "slug": "list-small-money-things-putting-off",
-      "slides": 7,
-      "status": "ready",
-      "caption": "You never had a math problem. Save this for the day you're ready to open the envelope. #moneyanxiety #financialtherapy #moneypsychology #moneymindset #personalfinance",
-      "firstComment": "Pick one. Not all five. The smallest one on the list, the one your eyes skipped. That's the one.",
-      "publish_at": "2026-07-18T20:00",
-      "type": "reel"
-    },
-    {
-      "slug": "list-flinch-at-own-money",
-      "slides": 7,
-      "status": "ready",
-      "caption": "You never had a math problem. Save this for the next time you catch yourself looking away. #moneyanxiety #financialtherapy #moneypsychology #moneymindset #personalfinance",
-      "firstComment": "The flinch is the whole thing. Which number are you not looking at right now? Tell me, no judgment here.",
-      "publish_at": "2026-07-19T12:00",
-      "type": "reel"
-    },
-    {
-      "slug": "list-money-habits-old-fear",
-      "slides": 7,
-      "status": "ready",
-      "caption": "You never had a math problem — you had a feeling you learned young. Save this for the next time the flinch shows up. #moneyanxiety #financialtherapy #moneypsychology #moneymindset #personalfinance",
-      "firstComment": "Which one hit hardest? Mine is number 3 — the yes that means no.",
-      "publish_at": "2026-07-19T20:00",
-      "type": "reel"
-    },
-    {
-      "slug": "list-signs-avoid-not-lazy",
-      "slides": 7,
-      "status": "ready",
-      "caption": "You never had a math problem. Save this for the next time your thumb hovers over that app. #moneyanxiety #financialtherapy #moneypsychology #moneymindset #personalfinance",
-      "firstComment": "Which sign made you go \"oh, that's me\"? Tell me the number. I read every one.",
+      "caption": "Fear is a worse accountant than the actual account.\n\n#moneyanxiety #financialtherapy #moneypsychology #moneymindset #personalfinance",
+      "firstComment": "The real number can't grow in the dark the way the imagined one does. Looking is how you take the pen back from your fear.",
       "publish_at": "2026-07-20T12:00",
       "type": "reel"
     },
     {
-      "slug": "list-budget-doomed-day-one",
-      "slides": 7,
+      "slug": "v2-the-soft-blur",
+      "slides": 1,
       "status": "ready",
-      "caption": "You never had a math problem. Save this for the next time the plan slips. #moneyanxiety #financialtherapy #moneypsychology #moneymindset #personalfinance",
-      "firstComment": "The fix isn't a stricter budget. It's a kinder one you'll actually reopen. Start with a check-in, not a rewrite.",
-      "publish_at": "2026-07-20T20:00",
-      "type": "reel"
-    },
-    {
-      "slug": "list-check-balance-one-eye",
-      "slides": 7,
-      "status": "ready",
-      "caption": "You never had a math problem. Save this for the next time your thumb hovers over the app. #moneyanxiety #financialtherapy #moneypsychology #moneymindset #personalfinance",
-      "firstComment": "The two-eye version of checking your balance is a skill, not a personality trait. You build it three seconds at a time.",
+      "caption": "You didn't forget your number. You keep it blurry on purpose.\n\n#moneyanxiety #financialtherapy #moneypsychology #moneymindset #personalfinance",
+      "firstComment": "The comparison only stings because one side is a real number and the other is a fog. Bring your own figure into focus and there is suddenly a lot less to feel behind about.",
       "publish_at": "2026-07-21T12:00",
       "type": "reel"
     },
     {
-      "slug": "list-not-bad-just-scared",
-      "slides": 7,
+      "slug": "v2-when-im-calm",
+      "slides": 1,
       "status": "ready",
-      "caption": "You never had a math problem. Save this for the next time you call yourself irresponsible. #moneyanxiety #financialtherapy #moneypsychology #moneymindset #personalfinance",
-      "firstComment": "Which one made you feel a little too seen? Tell me the number. We're all somewhere on this list.",
-      "publish_at": "2026-07-21T20:00",
-      "type": "reel"
-    },
-    {
-      "slug": "list-spend-to-feel-okay",
-      "slides": 7,
-      "status": "ready",
-      "caption": "You never had a math problem. You had a hard afternoon. Save this for the next 4pm cart. #moneyanxiety #financialtherapy #moneypsychology #moneymindset #personalfinance",
-      "firstComment": "If a number felt too accurate, that one is worth being kind to yourself about. Which slide made you pause?",
+      "caption": "\"I'll deal with it when I'm calm\" is avoidance wearing a responsible face.\n\n#moneyanxiety #financialtherapy #moneypsychology #moneymindset #personalfinance",
+      "firstComment": "The calm never arrives on its own, because the thing making you tense is the not-knowing. Ten seconds of looking does more than a week of waiting to feel ready.",
       "publish_at": "2026-07-22T12:00",
       "type": "reel"
     },
     {
-      "slug": "list-app-you-wont-open",
-      "slides": 7,
+      "slug": "v2-the-add-to-cart-was-a-flinch",
+      "slides": 1,
       "status": "ready",
-      "caption": "You never had a math problem. Save this for the next time your thumb hovers and won't tap. #moneyanxiety #financialtherapy #moneypsychology #moneymindset #personalfinance",
-      "firstComment": "The 10-second peek is the whole fix: open, look at one number, close. You're not solving money today, you're teaching your body the app isn't a threat.",
-      "publish_at": "2026-07-22T20:00",
-      "type": "reel"
-    },
-    {
-      "slug": "list-learned-money-scared-house",
-      "slides": 7,
-      "status": "ready",
-      "caption": "You never had a math problem — you had a house. Save this for the next time your body braces. #moneyanxiety #financialtherapy #moneypsychology #moneymindset #personalfinance",
-      "firstComment": "The flinch was a smart move once. It kept you small and quiet when small and quiet was safe. It's allowed to retire now.",
+      "caption": "The thing was never the point. The ten calm minutes after were.\n\n#moneyanxiety #financialtherapy #moneypsychology #moneymindset #personalfinance",
+      "firstComment": "You were buying the quiet on the other side, not the object. Naming the feeling gets you there faster, and it costs nothing.",
       "publish_at": "2026-07-23T12:00",
       "type": "reel"
     },
     {
-      "slug": "list-deal-with-it-later-feeling",
-      "slides": 7,
+      "slug": "v2-the-email-you-archived",
+      "slides": 1,
       "status": "ready",
-      "caption": "\"Later\" is a feeling, not a plan — and you can meet it in two minutes. Save this for the next envelope you don't want to open. #moneyanxiety #financialtherapy #moneypsychology #moneymindset #personalfinance",
-      "firstComment": "The two-minute rule that helps me: open the scary thing, look, and close it. No fixing on the first visit. Looking is allowed to be the whole task.",
-      "publish_at": "2026-07-23T20:00",
-      "type": "reel"
-    },
-    {
-      "slug": "list-avoidance-looks-like-busy",
-      "slides": 7,
-      "status": "ready",
-      "caption": "You never had a math problem. You had a hard feeling wearing a full calendar. Save this for the next 'I'll deal with it this weekend.' #moneyanxiety #financialtherapy #moneypsychology #moneymindset #personalfinance",
-      "firstComment": "Start with the smallest one. Open a single account for ten seconds today. You don't have to fix it. You only have to look.",
+      "caption": "Archiving isn't deciding. It's letting the money leave without a witness.\n\n#moneyanxiety #financialtherapy #moneypsychology #moneymindset #personalfinance",
+      "firstComment": "The subscription doesn't need your permission to renew. It only needs you to keep not looking. Opening the email is how you take the room back from it.",
       "publish_at": "2026-07-24T12:00",
       "type": "reel"
     },
     {
-      "slug": "list-money-lies-brain-1am",
-      "slides": 7,
+      "slug": "v2-the-number-you-both-avoid",
+      "slides": 1,
       "status": "ready",
-      "caption": "Your brain is a bad narrator at 1am. Save this for the next sleepless scroll. #moneyanxiety #financialtherapy #moneypsychology #moneymindset #personalfinance",
-      "firstComment": "The move that helps most people: keep a notepad by the bed. Write the scary number down, promise to look in daylight, then let tomorrow-you handle it. Tomorrow-you is more awake than you think.",
-      "publish_at": "2026-07-24T20:00",
-      "type": "reel"
-    },
-    {
-      "slug": "list-money-feelings-nobody-warns",
-      "slides": 7,
-      "status": "ready",
-      "caption": "The feelings had names the whole time, nobody handed you the list. Save this for the next flinch. #moneyanxiety #financialtherapy #moneypsychology #moneymindset #personalfinance",
-      "firstComment": "If you read all five and went \"oh, that one,\" you're not behind. You're paying attention. Follow @themoneyflinch and we'll keep naming the quiet stuff.",
+      "caption": "Silence between two people isn't peace. It's a bill neither of you opened.\n\n#moneyanxiety #financialtherapy #moneypsychology #moneymindset #personalfinance",
+      "firstComment": "You don't have to fix it in one talk. You just have to make the number sayable, so it stops being a secret you're both guarding alone.",
       "publish_at": "2026-07-25T12:00",
       "type": "reel"
     },
     {
-      "slug": "list-brain-when-bill-arrives",
-      "slides": 7,
+      "slug": "v2-you-already-know-the-number",
+      "slides": 1,
       "status": "ready",
-      "caption": "You never had a math problem. Save this for the next envelope you don't want to open. #moneyanxiety #financialtherapy #moneypsychology #moneymindset #personalfinance",
-      "firstComment": "The trick that works for me: open it while you're still a little scared, read the exact number out loud, then close it. That's the whole task. The number was never the scary part. The looking-away was.",
-      "publish_at": "2026-07-25T20:00",
-      "type": "reel"
-    },
-    {
-      "slug": "list-thoughts-feel-true-arent",
-      "slides": 7,
-      "status": "ready",
-      "caption": "You never had a math problem. Save this for the next time your brain lies to you with a straight face. #moneyanxiety #financialtherapy #moneypsychology #moneymindset #personalfinance",
-      "firstComment": "Which one hit? Tell me the number. I read every one of these.",
+      "caption": "You are not avoiding the app. You are avoiding a number you already made scarier than it is.\n\n#moneyanxiety #financialtherapy #moneypsychology #moneymindset #personalfinance",
+      "firstComment": "Guessing feels safe because nothing can go wrong inside your head. But the imagined number never shrinks. Only the real one can, and only once you look at it.",
       "publish_at": "2026-07-26T12:00",
       "type": "reel"
     },
     {
-      "slug": "list-stories-avoid-checking",
-      "slides": 7,
+      "slug": "v2-you-round-yourself-down",
+      "slides": 1,
       "status": "ready",
-      "caption": "You never had a math problem. Save this for the next time your thumb hovers over the app and finds a reason not to tap. #moneyanxiety #financialtherapy #moneypsychology #moneymindset #personalfinance",
-      "firstComment": "The check takes eight seconds. The story you tell to skip it has been running for years.",
-      "publish_at": "2026-07-26T20:00",
-      "type": "reel"
-    },
-    {
-      "slug": "list-fears-shrink-when-look",
-      "slides": 7,
-      "status": "ready",
-      "caption": "You never had a math problem. Save this for the next time your brain makes the number bigger than it is. #moneyanxiety #financialtherapy #moneypsychology #moneymindset #personalfinance",
-      "firstComment": "Pick the scariest one and look at it for ten seconds today. That is the whole assignment.",
+      "caption": "Everyone else gets exact figures. You get an estimate, rounded down, just to be safe.\n\n#moneyanxiety #financialtherapy #moneypsychology #moneymindset #personalfinance",
+      "firstComment": "Watch it happen next time money comes up. You will round theirs up to be generous and round yours down to be safe. Say your real number once, out loud, and let it be exactly what it is.",
       "publish_at": "2026-07-27T12:00",
       "type": "reel"
     },
     {
-      "slug": "list-confuses-with-being-broke",
-      "slides": 7,
+      "slug": "v2-you-already-paid-with-dread",
+      "slides": 1,
       "status": "ready",
-      "caption": "You never had a math problem. Save this for the next time your brain lies about your balance. #moneyanxiety #financialtherapy #moneypsychology #moneymindset #personalfinance",
-      "firstComment": "The fix for most of these is the same small move: look at the real number once, when you're rested. The feeling and the fact are rarely the same size.",
-      "publish_at": "2026-07-27T20:00",
-      "type": "reel"
-    },
-    {
-      "slug": "list-two-minute-calm-nervous-system",
-      "slides": 7,
-      "status": "ready",
-      "caption": "You never had a math problem. You had a flinch, and it was trying to protect you. Save this for the next time your chest tightens over a balance. #moneyanxiety #financialtherapy #moneypsychology #moneymindset #personalfinance",
-      "firstComment": "Pick the smallest one on the list. Small is the whole point. Your nervous system doesn't scale to big moves when it's already bracing.",
+      "caption": "You were charged for a number you never even looked at.\n\n#moneyanxiety #financialtherapy #moneypsychology #moneymindset #personalfinance",
+      "firstComment": "The balance never moved. The dread is what compounded. A few honest seconds of looking costs less than one more day of imagining it.",
       "publish_at": "2026-07-28T12:00",
       "type": "reel"
     },
     {
-      "slug": "list-gentle-moves-when-behind",
-      "slides": 7,
+      "slug": "v2-bill-on-the-counter",
+      "slides": 1,
       "status": "ready",
-      "caption": "You never had a math problem. Save this for the week the numbers feel too heavy to look at. #moneyanxiety #financialtherapy #moneypsychology #moneymindset #personalfinance",
-      "firstComment": "If you're reading this behind on something, you're already doing the brave part. Pick one move, not all five.",
-      "publish_at": "2026-07-28T20:00",
-      "type": "reel"
-    },
-    {
-      "slug": "list-tiny-wins-lying-down",
-      "slides": 7,
-      "status": "ready",
-      "caption": "You never had a math problem. Save this for the day you can't get off the couch but want one small thing to go right. #moneyanxiety #financialtherapy #moneypsychology #moneymindset #personalfinance",
-      "firstComment": "The lying-down part is not a joke. On a low day, the smallest possible win is the only one that actually happens. Start there.",
+      "caption": "Unopened isn't undecided. The number was set the day it landed on your counter.\n\n#moneyanxiety #financialtherapy #moneypsychology #moneymindset #personalfinance",
+      "firstComment": "The envelope isn't holding the number back. It is only holding it out of your hands, where you could actually do something with it. Opening it tonight is the smallest kindness you can give tomorrow you.",
       "publish_at": "2026-07-29T12:00",
       "type": "reel"
     },
     {
-      "slug": "list-moves-less-than-coffee",
-      "slides": 7,
+      "slug": "v2-buying-the-ten-calm-minutes",
+      "slides": 1,
       "status": "ready",
-      "caption": "You never had a math problem. Save this for the next time your account feels scarier than it is. #moneyanxiety #financialtherapy #moneypsychology #moneymindset #personalfinance",
-      "firstComment": "Pick one. Not all five. The move you already scrolled past twice is usually the one to start with.",
-      "publish_at": "2026-07-29T20:00",
-      "type": "reel"
-    },
-    {
-      "slug": "list-moves-cant-cope",
-      "slides": 7,
-      "status": "ready",
-      "caption": "You never had a math problem. Save this for the days the mail feels like too much. #moneyanxiety #financialtherapy #moneypsychology #moneymindset #personalfinance",
-      "firstComment": "The days you can't cope are the days the numbers feel the loudest. That's the anxiety talking, not the math. Start with one thing.",
+      "caption": "A cart is where a hard feeling goes to hide for ten minutes.\n\n#moneyanxiety #financialtherapy #moneypsychology #moneymindset #personalfinance",
+      "firstComment": "Next time the checkout button feels urgent, ask what you are trying to stop feeling. It is almost never the item. It is the quiet you think it buys.",
       "publish_at": "2026-07-30T12:00",
       "type": "reel"
     },
     {
-      "slug": "list-dont-feel-like-homework",
-      "slides": 7,
+      "slug": "v2-you-know-what-they-earn",
+      "slides": 1,
       "status": "ready",
-      "caption": "You never had a math problem. You had a flinch, and flinches soften when you stop grading yourself. Save this for the day the balance feels scary. #moneyanxiety #financialtherapy #moneypsychology #moneymindset #personalfinance",
-      "firstComment": "Real talk: pick ONE. Doing five today is how you end up doing zero tomorrow. Which one felt the least scary?",
-      "publish_at": "2026-07-30T20:00",
+      "caption": "We will trade our deepest secrets before we will trade a single real salary.\n\n#moneyanxiety #financialtherapy #moneypsychology #moneymindset #personalfinance",
+      "firstComment": "The silence around pay only ever protects the person underpaying you. Trading one honest number with someone you trust is how you find out what you are actually worth.",
+      "publish_at": "2026-07-31T12:00",
       "type": "reel"
     }
-  ],
-  "posts_per_day": 2
+  ]
 }
