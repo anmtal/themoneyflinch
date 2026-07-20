@@ -1,0 +1,5 @@
+node_modules/
+out/
+# generated per-render; the source of truth is content/reel-v2-scripts.json
+public/*.mp3
+public/*.words.json
