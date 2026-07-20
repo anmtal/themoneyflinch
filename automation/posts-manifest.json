@@ -1,8 +1,7 @@
 {
   "timezone": "America/Toronto",
-  "posts_per_day": 0.286,
-  "posts_per_week": 2,
-  "note": "v2 voiced single-idea reels (tools/reel_v2.py). 2 days/week (Mon + Thu) at 12:00 ET while we test the new format. Old static list reels retired from the queue; posted slugs remain in content/posted.json so nothing re-posts.",
+  "posts_per_day": 2,
+  "note": "v2 voiced single-idea reels (tools/reel_v2.py), 2/day at 12:00 and 20:00 ET. Old static list reels retired from the queue; posted slugs remain in content/posted.json so nothing re-posts.",
   "posts": [
     {
       "slug": "v2-the-number-in-your-head",
@@ -19,7 +18,7 @@
       "status": "ready",
       "caption": "You didn't forget your number. You keep it blurry on purpose.\n\n#moneyanxiety #financialtherapy #moneypsychology #moneymindset #personalfinance",
       "firstComment": "The comparison only stings because one side is a real number and the other is a fog. Bring your own figure into focus and there is suddenly a lot less to feel behind about.",
-      "publish_at": "2026-07-23T12:00",
+      "publish_at": "2026-07-20T20:00",
       "type": "reel"
     },
     {
@@ -28,7 +27,7 @@
       "status": "ready",
       "caption": "\"I'll deal with it when I'm calm\" is avoidance wearing a responsible face.\n\n#moneyanxiety #financialtherapy #moneypsychology #moneymindset #personalfinance",
       "firstComment": "The calm never arrives on its own, because the thing making you tense is the not-knowing. Ten seconds of looking does more than a week of waiting to feel ready.",
-      "publish_at": "2026-07-27T12:00",
+      "publish_at": "2026-07-21T12:00",
       "type": "reel"
     },
     {
@@ -37,7 +36,7 @@
       "status": "ready",
       "caption": "The thing was never the point. The ten calm minutes after were.\n\n#moneyanxiety #financialtherapy #moneypsychology #moneymindset #personalfinance",
       "firstComment": "You were buying the quiet on the other side, not the object. Naming the feeling gets you there faster, and it costs nothing.",
-      "publish_at": "2026-07-30T12:00",
+      "publish_at": "2026-07-21T20:00",
       "type": "reel"
     },
     {
@@ -46,7 +45,7 @@
       "status": "ready",
       "caption": "Archiving isn't deciding. It's letting the money leave without a witness.\n\n#moneyanxiety #financialtherapy #moneypsychology #moneymindset #personalfinance",
       "firstComment": "The subscription doesn't need your permission to renew. It only needs you to keep not looking. Opening the email is how you take the room back from it.",
-      "publish_at": "2026-08-03T12:00",
+      "publish_at": "2026-07-22T12:00",
       "type": "reel"
     },
     {
@@ -55,7 +54,7 @@
       "status": "ready",
       "caption": "Silence between two people isn't peace. It's a bill neither of you opened.\n\n#moneyanxiety #financialtherapy #moneypsychology #moneymindset #personalfinance",
       "firstComment": "You don't have to fix it in one talk. You just have to make the number sayable, so it stops being a secret you're both guarding alone.",
-      "publish_at": "2026-08-06T12:00",
+      "publish_at": "2026-07-22T20:00",
       "type": "reel"
     },
     {
@@ -64,7 +63,7 @@
       "status": "ready",
       "caption": "You are not avoiding the app. You are avoiding a number you already made scarier than it is.\n\n#moneyanxiety #financialtherapy #moneypsychology #moneymindset #personalfinance",
       "firstComment": "Guessing feels safe because nothing can go wrong inside your head. But the imagined number never shrinks. Only the real one can, and only once you look at it.",
-      "publish_at": "2026-08-10T12:00",
+      "publish_at": "2026-07-23T12:00",
       "type": "reel"
     },
     {
@@ -73,7 +72,7 @@
       "status": "ready",
       "caption": "Everyone else gets exact figures. You get an estimate, rounded down, just to be safe.\n\n#moneyanxiety #financialtherapy #moneypsychology #moneymindset #personalfinance",
       "firstComment": "Watch it happen next time money comes up. You will round theirs up to be generous and round yours down to be safe. Say your real number once, out loud, and let it be exactly what it is.",
-      "publish_at": "2026-08-13T12:00",
+      "publish_at": "2026-07-23T20:00",
       "type": "reel"
     },
     {
@@ -82,7 +81,7 @@
       "status": "ready",
       "caption": "You were charged for a number you never even looked at.\n\n#moneyanxiety #financialtherapy #moneypsychology #moneymindset #personalfinance",
       "firstComment": "The balance never moved. The dread is what compounded. A few honest seconds of looking costs less than one more day of imagining it.",
-      "publish_at": "2026-08-17T12:00",
+      "publish_at": "2026-07-24T12:00",
       "type": "reel"
     },
     {
@@ -91,7 +90,7 @@
       "status": "ready",
       "caption": "Unopened isn't undecided. The number was set the day it landed on your counter.\n\n#moneyanxiety #financialtherapy #moneypsychology #moneymindset #personalfinance",
       "firstComment": "The envelope isn't holding the number back. It is only holding it out of your hands, where you could actually do something with it. Opening it tonight is the smallest kindness you can give tomorrow you.",
-      "publish_at": "2026-08-20T12:00",
+      "publish_at": "2026-07-24T20:00",
       "type": "reel"
     },
     {
@@ -100,7 +99,7 @@
       "status": "ready",
       "caption": "A cart is where a hard feeling goes to hide for ten minutes.\n\n#moneyanxiety #financialtherapy #moneypsychology #moneymindset #personalfinance",
       "firstComment": "Next time the checkout button feels urgent, ask what you are trying to stop feeling. It is almost never the item. It is the quiet you think it buys.",
-      "publish_at": "2026-08-24T12:00",
+      "publish_at": "2026-07-25T12:00",
       "type": "reel"
     },
     {
@@ -109,7 +108,7 @@
       "status": "ready",
       "caption": "We will trade our deepest secrets before we will trade a single real salary.\n\n#moneyanxiety #financialtherapy #moneypsychology #moneymindset #personalfinance",
       "firstComment": "The silence around pay only ever protects the person underpaying you. Trading one honest number with someone you trust is how you find out what you are actually worth.",
-      "publish_at": "2026-08-27T12:00",
+      "publish_at": "2026-07-25T20:00",
       "type": "reel"
     }
   ]
